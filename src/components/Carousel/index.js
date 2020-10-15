@@ -22,7 +22,7 @@ function Carousel({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
            
             {categoryExtraLink && 
-            <ExtraLink href={`http://localhost:3000/tela/categoria/${categoryId}`} target="_blank">   
+            <ExtraLink href={`https://gamesweb.vercel.app/tela/categoria/${categoryId}`} target="_blank">   
               {categoryTitle}  
             </ExtraLink>
           }

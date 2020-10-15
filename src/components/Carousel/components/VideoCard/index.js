@@ -17,7 +17,7 @@ function getYouTubeId(youtubeURL) {
   return (
     <VideoCardContainer
       url={gameThumb}
-      href={`http://localhost:3000/tela/video/${gameId}`}  // videoURL , https://filmesweb.vercel.app/ , http://localhost:3000/
+      href={`https://gamesweb.vercel.app/tela/video/${gameId}`}  // videoURL , https://gamesweb.vercel.app/ , http://localhost:3000/
       target="_blank"
       style={{ borderColor: categoryColor || 'red' }}
       title={gameTitle}
