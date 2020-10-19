@@ -53,3 +53,10 @@ export const VideoCardGroupContainer = styled.section`
   margin-left: 5%;
   margin-bottom: 16px;
 `;
+
+export const InputSearch = styled.input`
+  margin-top:35px;
+  margin-bottom:5px;
+  height:30px;
+  width:250px;
+`;

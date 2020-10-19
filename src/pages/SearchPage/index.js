@@ -1,17 +1,17 @@
 import React from 'react';
-import PageDefault from '../../components/PageDefault';
+import PageDefaultSearch from '../../components/PageDefaultSearch';
 import SearchBox from '../../components/SearchBox';
 
 function SearchPage() {
   
   
   return (
-    <PageDefault paddingAll={0}>
+    <PageDefaultSearch paddingAll={0}>
       
       <SearchBox/>
 
      
-    </PageDefault>
+    </PageDefaultSearch>
   );
 
 }

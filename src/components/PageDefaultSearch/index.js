@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Menu from '../Menu';
+import MenuSearch from '../MenuSearch';
 
 import Footer from '../Footer';
 import styled, {css} from 'styled-components';
@@ -18,12 +18,12 @@ const Main = styled.main`
 `;
 
 
-function PageDefault({children, paddingAll }) {
+function PageDefaultSearch({children, paddingAll }) {
   return (
     <>
      
-     <Menu />
-     
+      
+     <MenuSearch/>
         <Main paddingAll={paddingAll}>
           {children}
         </Main>
@@ -32,4 +32,4 @@ function PageDefault({children, paddingAll }) {
   );
 }
 
-export default PageDefault;
+export default PageDefaultSearch;

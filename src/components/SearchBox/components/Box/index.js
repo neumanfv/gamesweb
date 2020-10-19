@@ -14,6 +14,7 @@ const Container = styled.ul`
 
 export const BoxItem = styled.li`
   margin-right: 16px;
+  margin-bottom:16px;
   
   img {
     margin: 15px;

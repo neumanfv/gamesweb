@@ -42,31 +42,10 @@ function Home() {
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
-      <div>
-      <input name="search" type="text" id="search" required="" placeholder="Search" />
-        
-      <Button as={Link} onClick={store} to="/tela/SearchPage"  >Busca</Button>
-      </div>
+      
       
       {dadosIniciais.map((categoria, indice) => {
-        if (indice === 0) {
-          return (
-            <div key={categoria.id}>
-              <BannerMain
-                gameTitle={dadosIniciais[0].games[0].titulo}
-                url={dadosIniciais[0].games[0].url}
-                gameDescription={dadosIniciais[0].games[0].description}
-                gameThumbnail={dadosIniciais[0].games[0].thumbnail}
-              />
-                
-               
-              <Carousel
-                ignoreFirstVideo
-                category={dadosIniciais[0]}
-              />
-            </div>
-          );
-        }
+       
 
         return (
           <Carousel

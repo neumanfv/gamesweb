@@ -13,15 +13,11 @@ import './Menu.css';
 import Button from '../Button';
 // import ButtonLink from './components/ButtonLink'; 
 
-function Menu() {
+function MenuSearch() {
   
-  function store(){
-    var inputEmail= document.getElementById("search");
-    localStorage.setItem("busca", inputEmail.value);
-    console.log(localStorage.getItem("busca"));
-    
-   };
-
+  
+  
+ 
 
 
    return (
@@ -34,11 +30,7 @@ function Menu() {
 
       <text className="texttitulo">Jogos Online Gratuitos</text>  
       
-      <div className="div">
-      <input className="input" name="search" type="text" id="search" required="" placeholder="Search Game" />
      
-      <Button  as={Link} onClick={store} to="/tela/SearchPage"  > <img className="LogoBusca" src={Busca}/> </Button>
-      </div> 
       
 
      
@@ -84,4 +76,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default MenuSearch;

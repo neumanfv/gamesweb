@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
+import { VideoCardGroupContainer, Title, ExtraLink, InputSearch } from './styles';
 import VideoCard from './components/VideoCard';
 import Box, { BoxItem} from './components/Box';
 import videosRepository from '../../repositories/videos';
@@ -43,7 +43,7 @@ function search(rows) {
   //    <input type="text" value={q} onChange={(e) => setQ(e.target.value)} />
   return (
     <VideoCardGroupContainer>
-       <input type="text" value={q} onChange={(e) => setQ(e.target.value)} />
+       <InputSearch placeholder="Search Game" type="text" value={q} onChange={(e) => setQ(e.target.value)} />
       
     
       <Box>
