@@ -1,6 +1,8 @@
 import React from 'react';
 import IframeResponsive from '../IframeResponsive';
-import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
+import { BannerMainContainer, ContentAreaContainer, WatchButton, PlayFullScreen } from './styles';
+
+import fullscreen from '../../../../assets/img/fullscreen.png';
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL
@@ -37,9 +39,8 @@ export default function BannerVideo({
           <IframeResponsive
             youtubeID={GameURL}
           />
-          <WatchButton>
-            Assistir
-          </WatchButton>
+          
+          <PlayFullScreen id= "go-button" src={fullscreen}/>
         </ContentAreaContainer.Item>
       </ContentAreaContainer>
     </BannerMainContainer>

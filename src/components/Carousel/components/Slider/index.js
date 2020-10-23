@@ -12,11 +12,11 @@ const Container = styled.ul`
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     transform: initial;
     &:before {
-      font-size: 30px;
+      font-size: 54px;
     }
   }
   
@@ -30,24 +30,74 @@ const Container = styled.ul`
 
 export const SliderItem = styled.li`
   margin-right: 16px;
+  margin-bottom:16px;
+  position:relative;
+
   img {
     margin: 16px;
     width: 298px;
     height: 197px;
     object-fit: cover;
   }
+  :hover{
+    opacity:.5;
+  }
+
 `;
+
+export const BoxText = styled.a`
+     
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    position:absolute;
+    bottom:10px; 
+    left:30px; 
+    &:hover, &:focus{
+     
+      cursor:pointer;
+    }
+  
+     
+
+`;
+
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
 
 
 const Slider = ({ children }) => (
   <Container>
     <SlickSlider {...{
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+      autoplay: true,
+      autoplaySpeed: 2000,
     }}
     >
       {children}

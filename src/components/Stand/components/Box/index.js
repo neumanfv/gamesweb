@@ -14,6 +14,8 @@ const Container = styled.ul`
 
 export const BoxItem = styled.li`
   margin-right: 16px;
+  margin-bottom:16px;
+  position:relative;
   
   img {
     margin: 15px;
@@ -22,6 +24,26 @@ export const BoxItem = styled.li`
     object-fit: cover;
    
   }
+  :hover{
+    opacity:.5;
+  }
+`;
+
+export const BoxText = styled.a`
+     
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    position:absolute;
+    bottom:10px; 
+    left:30px; 
+    &:hover, &:focus{
+     
+      cursor:pointer;
+    }
+  
+     
+
 `;
 
 

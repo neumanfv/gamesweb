@@ -21,6 +21,7 @@ ContentAreaContainer.Item = styled.div`
   margin-bottom: 50px;
   @media (max-width: 800px) {
     width: 100%;
+    margin-bottom: 5px;
   }
 `;
 
@@ -62,6 +63,7 @@ ContentAreaContainer.Title = styled.h2`
   @media (max-width: 800px) {
     font-size: 32px;
     text-align: center;
+   
   }
 `;
 
@@ -117,9 +119,24 @@ export const WatchButton = styled.button`
   background: var(--white);
   border-color: var(--black);
   transition: opacity .3s;
-  display: none;
+  display: block;
   margin: 0 auto;
   @media (max-width: 800px) {
     display: block;
   }
+`;
+
+export const PlayFullScreen = styled.img`
+      
+      display:block;
+      cursor: pointer;
+      height:50px;
+      width:50px;
+      margin: 0 auto;
+    
+      :hover, :focus{
+        height:60px;
+        width:60px;
+        
+      }
 `;

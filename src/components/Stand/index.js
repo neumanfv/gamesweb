@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
-import Box, { BoxItem} from './components/Box';
+import Box, { BoxItem, BoxText} from './components/Box';
 import Pagination from '../Pagination';
 
 function Stand({
@@ -107,6 +107,10 @@ function Stand({
                 
               />
 
+              <BoxText  href={`https://gamesweb.vercel.app/tela/video/${game.id}`}  target="_blank" >
+                  {game.titulo}
+              </BoxText>
+              
              
             </BoxItem>
           );

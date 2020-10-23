@@ -14,3 +14,36 @@ export const FooterBase = styled.footer`
     margin-bottom: 50px;
   }
 `;
+
+export const SocialImage = styled.img`
+  height:40px;
+  width:40px;
+`;
+
+export const InternalBox = styled.section`
+  
+  
+`;
+
+export const ParentBox =styled.section`
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+`;
+
+export const SocialLink = styled.a`
+  margin-right:5px;
+  :hover{
+    opacity:.5
+  }
+`;
+export const TermsLink = styled.a`
+  margin-right:35px;
+  text-decoration:none;
+
+  :hover{
+    opacity:.5
+  }
+`;
+

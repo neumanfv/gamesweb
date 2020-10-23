@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink, InputSearch } from './styles';
 import VideoCard from './components/VideoCard';
-import Box, { BoxItem} from './components/Box';
+import Box, { BoxItem, BoxText} from './components/Box';
 import videosRepository from '../../repositories/videos';
 
 
@@ -62,7 +62,9 @@ function search(rows) {
                 gameThumbnail={game.thumbnail}
                 
               />
-
+              <BoxText  href={`https://gamesweb.vercel.app/tela/video/${game.id}`}  target="_blank" >
+                  {game.titulo}
+              </BoxText>
              
             </BoxItem>
           );

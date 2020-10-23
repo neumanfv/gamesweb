@@ -7,8 +7,10 @@ export const VideoContainer = styled.div`
   padding-top: 56.25%;
   display:flex;
   flex-direction:column;
+  
+  align-items:center;
   @media (max-width: 800px) {
-    display: none;
+   
   }
 
   
@@ -21,17 +23,14 @@ export const ResponsiveIframe = styled.iframe`
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 94%;
+  height: 100%;
+ 
   
 `;
 
-export const GoButton = styled.button`
-  position: absolute; 
-  width: 200px;
-  height:6%;
-  display: block;
-  left:50%;
-  margin-left:-100px;
-  bottom:0;
-  
-`;
+
+
+
+
+
+

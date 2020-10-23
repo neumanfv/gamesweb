@@ -1,7 +1,7 @@
 import React from 'react';
-import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
+import { VideoCardGroupContainer, Title, ExtraLink, MiniBox } from './styles';
 import VideoCard from './components/VideoCard';
-import Slider, { SliderItem } from './components/Slider';
+import Slider, { SliderItem, BoxText } from './components/Slider';
 
 function Carousel({
   ignoreFirstGame,
@@ -22,9 +22,15 @@ function Carousel({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
            
             {categoryExtraLink && 
+        
             <ExtraLink href={`https://gamesweb.vercel.app/tela/categoria/${categoryId}`} target="_blank">   
-              {categoryTitle}  
+              {categoryTitle}  <MiniBox> See More >> </MiniBox> 
             </ExtraLink>
+            
+            
+        
+          
+           
           }
           </Title>
           
@@ -49,6 +55,9 @@ function Carousel({
                 gameThumb = {game.thumbnail}
                 
               />
+              <BoxText  href={`https://gamesweb.vercel.app/tela/video/${game.id}`}  target="_blank" >
+                  {game.titulo}
+              </BoxText>
             </SliderItem>
           );
         })}
