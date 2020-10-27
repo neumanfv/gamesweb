@@ -3,6 +3,7 @@ import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Box, { BoxItem, BoxText} from './components/Box';
 import Pagination from '../Pagination';
+import config from '../../config';
 
 function Stand({
   ignoreFirstVideo,
@@ -107,7 +108,7 @@ function Stand({
                 
               />
 
-              <BoxText  href={`https://gamesweb.vercel.app/tela/video/${game.id}`}  target="_blank" >
+              <BoxText  href={`${config.URL_SERVER}/tela/video/${game.id}`}  target="_blank" >
                   {game.titulo}
               </BoxText>
               

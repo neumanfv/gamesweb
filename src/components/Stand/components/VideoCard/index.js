@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { VideoCardContainer } from './styles';
 //import videosRepository from '../../../../repositories/videos';
+import config from '../../../../config';
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL
@@ -18,7 +19,7 @@ function getYouTubeId(youtubeURL) {
   return (
     <VideoCardContainer
       url={gameThumbnail}
-      href={`https://gamesweb.vercel.app/tela/video/${gameId}`}  // videoURL , https://gamesweb.vercel.app/ , http://localhost:3000/
+      href={`${config.URL_SERVER}/tela/video/${gameId}`}  // videoURL , https://gamesweb.vercel.app/ , http://localhost:3000/
       target="_blank"
       style={{ borderColor: categoryColor || 'red' }}
       title={gameTitle}

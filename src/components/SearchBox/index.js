@@ -3,6 +3,7 @@ import { VideoCardGroupContainer, Title, ExtraLink, InputSearch } from './styles
 import VideoCard from './components/VideoCard';
 import Box, { BoxItem, BoxText} from './components/Box';
 import videosRepository from '../../repositories/videos';
+import config from '../../config';
 
 
 function SearchBox() {
@@ -62,7 +63,7 @@ function search(rows) {
                 gameThumbnail={game.thumbnail}
                 
               />
-              <BoxText  href={`https://gamesweb.vercel.app/tela/video/${game.id}`}  target="_blank" >
+              <BoxText  href={`${config.URL_SERVER}/tela/video/${game.id}`}  target="_blank" >
                   {game.titulo}
               </BoxText>
              
