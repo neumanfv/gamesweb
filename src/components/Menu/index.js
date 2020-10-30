@@ -35,7 +35,7 @@ function Menu() {
       <text className="texttitulo">Jogos Online Gratuitos</text>  
       
       <div className="div">
-      <input className="input" name="search" type="text" id="search" required="" placeholder="Search Game" />
+      <input className="input"  name="search" type="text" id="search" required="" placeholder="Search Game" />
      
       <Button  as={Link} onClick={store} to="/tela/SearchPage"  > <img className="LogoBusca" src={Busca}/> </Button>
       </div> 

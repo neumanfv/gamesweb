@@ -6,7 +6,7 @@ import Footer from '../Footer';
 import styled, {css} from 'styled-components';
 
 const Main = styled.main`
-  background-color: orange;
+  background-color: #FB3532;
   color: var(--white);
   flex: 1;
   padding-top: 50px;

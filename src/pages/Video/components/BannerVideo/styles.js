@@ -130,13 +130,13 @@ export const PlayFullScreen = styled.img`
       
       display:block;
       cursor: pointer;
-      height:50px;
-      width:50px;
+      height:75px;
+      width:150px;
       margin: 0 auto;
     
       :hover, :focus{
-        height:60px;
-        width:60px;
+        height:80px;
+        width:160px;
         
       }
 `;
