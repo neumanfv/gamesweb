@@ -1,5 +1,5 @@
 .Logo {
-    max-width: 168px;
+    max-width: 198px;
   }
   @media (max-width: 800px) {
     .Logo {
@@ -41,7 +41,7 @@
     padding-left: 5%;
     padding-right: 5%;
   
-    background: #03D6F4; 
+    background: #676767; 
    
   }
 
@@ -61,7 +61,7 @@
     padding-left: 5%;
     padding-right: 5%;
   
-    background:  #03D6F4;
+    background:  #676767;
     border-bottom: 2px solid var(--primary);
     color: white;
 
