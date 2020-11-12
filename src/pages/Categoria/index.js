@@ -5,6 +5,7 @@ import PageDefault from '../../components/PageDefault';
 import Stand from '../../components/Stand';
 //import videosRepository from '../../repositories/videos';
 import categoriasRepository from '../../repositories/categorias';
+import BannerAdd from '../../components/BannerAdd';
 
 function Categoria() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
@@ -48,7 +49,7 @@ function Categoria() {
        
       })}
 
-     
+    <BannerAdd/>
     </PageDefault>
   );
 

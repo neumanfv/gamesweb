@@ -3,6 +3,7 @@ import IframeResponsive from '../IframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton, PlayFullScreen } from './styles';
 
 import fullscreen from '../../../../assets/img/fullscreen.png';
+import BannerAdd from '../../../../components/BannerAdd';
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL
@@ -33,6 +34,7 @@ export default function BannerVideo({
           <ContentAreaContainer.Description>
             {GameDescription}
           </ContentAreaContainer.Description>
+          <BannerAdd/>
         </ContentAreaContainer.Item>
 
         <ContentAreaContainer.Item>
@@ -42,7 +44,10 @@ export default function BannerVideo({
           
           <PlayFullScreen id= "go-button" src={fullscreen}/>
         </ContentAreaContainer.Item>
+       
+       
       </ContentAreaContainer>
+     
     </BannerMainContainer>
   );
 }

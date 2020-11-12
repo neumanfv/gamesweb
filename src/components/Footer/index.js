@@ -9,6 +9,7 @@ import twitch from '../../assets/img/twitch.png';
 function Footer() {
   return (
     <FooterBase>
+      
       <ParentBox>
             <InternalBox>
                   <SocialLink href="https://www.facebook.com/" target="_blank">

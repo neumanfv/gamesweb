@@ -1,6 +1,7 @@
 import React from 'react';
 import PageDefaultSearch from '../../components/PageDefaultSearch';
 import SearchBox from '../../components/SearchBox';
+import BannerAdd from '../../components/BannerAdd';
 
 function SearchPage() {
   
@@ -10,7 +11,7 @@ function SearchPage() {
       
       <SearchBox/>
 
-     
+      <BannerAdd/>
     </PageDefaultSearch>
   );
 

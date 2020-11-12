@@ -10,6 +10,13 @@ const Container = styled.ul`
   flex-direction:row;
   flex-flow: row wrap;
   list-style-type:none;
+
+  @media(max-width:800px){
+    justify-content:center;
+
+
+  }
+
 `;
 
 export const BoxItem = styled.li`

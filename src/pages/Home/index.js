@@ -4,6 +4,7 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categorias';
+import BannerAdd from '../../components/BannerAdd';
 
 import { Link } from 'react-router-dom';
 import Button from '../../components/Button';
@@ -54,6 +55,8 @@ function Home() {
           />
         );
       })}
+      
+      <BannerAdd/>
 
       {/* <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}

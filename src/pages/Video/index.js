@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import BannerVideo from './components/BannerVideo';
 import PageDefault from '../../components/PageDefault';
 import videosRepository from '../../repositories/videos';
+import BannerAdd from '../../components/BannerAdd';
 
 function Video() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
@@ -48,7 +49,7 @@ function Video() {
             
       />
           
-        
+      
     </PageDefault>
   );
 
