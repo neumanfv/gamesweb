@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Imagem = styled.img`
-      width:1060px;
-      height:176px;
+      width:400px;
+      height:68px;
       position:relative;
       top:45%;
       left:50%;
-       margin-top:-88px;
-       margin-left:-530px;
+       margin-top:-34px;
+       margin-left:-200px;
 
 
       @media(max-width:800px){

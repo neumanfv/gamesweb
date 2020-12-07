@@ -4,7 +4,7 @@ const URL_BACKEND_TOP = window.location.hostname.includes('localhost')
 
   const URL_SERVER = window.location.hostname.includes('localhost')
   ? 'http://localhost:3000'
-  : 'https://gamesweb.vercel.app'; // https://json-filmesweb-heroku.herokuapp.com
+  : 'https://gingoplay.com'; // https://json-filmesweb-heroku.herokuapp.com , https://gingoplay.com, https://gamesweb.vercel.app
 
 
 export default {

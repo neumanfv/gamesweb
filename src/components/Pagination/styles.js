@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
- 
+   margin-bottom:20px;
+  
 
 `;
 
@@ -10,9 +11,10 @@ export const Container = styled.div`
 export const Paginationcontainer = styled.div`
   display: flex;
   min-width: 500px;
-  max-width: 900px;
+  max-width: 100%;
   justify-content: center;
   margin-top: 10px;
+ 
   
 `;
 

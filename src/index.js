@@ -10,6 +10,10 @@ import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 import SearchPage from './pages/SearchPage';
 
+import AdsTxt from './pages/AdsTxt';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+
 // Desafio master blaster na descrição
 // Colocar um jogo nessa página: https://www.youtube.com/watch?v=jOAU81jdi-c :)
 const Pagina404 = () => (<div>Página 404</div>);
@@ -23,6 +27,12 @@ ReactDOM.render(
       <Route path="/tela/video" component={Video} />
       <Route path="/tela/categoria" component={Categoria} />
       <Route path="/tela/SearchPage" component={SearchPage} />
+
+      <Route path="/privacy" component={Privacy} />
+      <Route path="/terms" component={Terms} />
+      
+      <Route path="/ads.txt" component={AdsTxt} />
+
       <Route component={Pagina404} />
   </Switch> 
   </BrowserRouter>,

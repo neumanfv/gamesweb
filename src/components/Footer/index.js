@@ -27,17 +27,17 @@ function Footer() {
             </InternalBox>
             <InternalBox>
                 
-                <TermsLink href="/">
+                <TermsLink href="/privacy">
                   Privacy Policy
                 </TermsLink>
 
-                <TermsLink href="/">
-                Contact
+                <TermsLink href="/terms">
+                 Terms of Service
                 </TermsLink>
             </InternalBox>
       </ParentBox>
       <p>
-      Copyright © 2020 - Jogos Online Gratuitos – Free Games Online!
+      Copyright © 2020 - Gingo Play – Free Games Online!
       </p>
     </FooterBase>
   );

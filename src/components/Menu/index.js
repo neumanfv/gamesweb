@@ -32,7 +32,7 @@ function Menu() {
         <img className="Logo" src={Logo} alt="AluraFlix logo" />
       </Link>
 
-      <text className="texttitulo">Jogos Online Gratuitos</text>  
+      <text className="texttitulo">GINGO PLAY</text>  
       
       <div className="div">
       <input className="input"  name="search" type="text" id="search" required="" placeholder="Search Game" />
