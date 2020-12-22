@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import dadosIniciais from '../../data/dados_iniciais.json';
+import dadosInternos from '../../data/dados_iniciais3.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
@@ -12,19 +12,33 @@ import Button from '../../components/Button';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
-  
+  const [dadosInterior, setDadosInterior] = useState([]);
+ 
 
-  useEffect(() => {
+  /*useEffect(() => {
     // http://localhost:8080/categorias?_embed=videos
     categoriasRepository.getAllWithGames()
       .then((categoriasComGames) => {
         console.log(categoriasComGames[0].games[0]);
+        console.log(dadosInternos.categorias[0].games[0]);
+        console.log(categoriasComGames);
+        console.log(dadosInternos.categorias);
         setDadosIniciais(categoriasComGames); 
+        setDadosInterior(dadosInternos.categorias);
+        
       })
       .catch((err) => {
         console.log(err.message);
       });
 
+    
+
+  }, []);*/
+
+  useEffect(() => {
+    
+    
+    setDadosInterior(dadosInternos.categorias);
     
 
   }, []);
@@ -36,16 +50,27 @@ function Home() {
     
    };
 
-
+  
 
 
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {/*dadosIniciais.length === 0 && (<div>Loading...</div>)*/}
+      {dadosInternos.length === 0 && (<div>Loading...</div>)}
+      
+      
+      {/*dadosIniciais.map((categoria, indice) => {
+       
 
-      
-      
-      {dadosIniciais.map((categoria, indice) => {
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })*/}
+
+       {dadosInterior.map((categoria, indice) => {
        
 
         return (
@@ -55,6 +80,27 @@ function Home() {
           />
         );
       })}
+
+
+      { /*
+       <>
+        <Carousel category={dadosInternos.categorias[0]}/>
+
+        <Carousel category={dadosInternos.categorias[1]}/>
+        <Carousel category={dadosInternos.categorias[2]}/>
+
+        <Carousel category={dadosInternos.categorias[3]}/>
+        <Carousel category={dadosInternos.categorias[4]}/>
+
+       
+       </> 
+        
+      */}
+
+
+    
+        
+        
       
       <BannerAdd/>
 

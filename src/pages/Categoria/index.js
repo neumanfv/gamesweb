@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import dadosIniciais from '../../data/dados_iniciais.json';
+import dadosInternos from '../../data/dados_iniciais3.json';
 //import BannerVideo from '../Video/components/BannerVideo';
 import PageDefault from '../../components/PageDefault';
 import Stand from '../../components/Stand';
@@ -9,13 +9,14 @@ import BannerAdd from '../../components/BannerAdd';
 
 function Categoria() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
+  const [dadosInterior, setDadosInterior] = useState([]);
 
   var url_atual = window.location.href;
   //console.log(typeof(url_atual)); 
   var numero = url_atual.split('/');
   var id = numero[5];
  
-  useEffect(() => {
+ /* useEffect(() => {
     // http://localhost:8080/categorias?_embed=videos
     categoriasRepository.getAllWithGames()
       .then((categoriasComGames) => {
@@ -25,16 +26,24 @@ function Categoria() {
       .catch((err) => {
         console.log(err.message);
       });
+  }, []); */
+
+  useEffect(() => {
+    
+    
+    setDadosInterior(dadosInternos.categorias);
+    
+
   }, []);
 
   
-
+  // dadosIniciais, dadosInterior
   
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {dadosInterior.length === 0 && (<div>Loading...</div>)}  
 
-      {dadosIniciais.map((categoria) => {
+      {dadosInterior.map((categoria) => {
          if(categoria.id == id){
           return (
 

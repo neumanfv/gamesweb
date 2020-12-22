@@ -1,0 +1,894 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Puzzles",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+	   },
+	    "games": [
+			{
+				"id": 1,
+				"titulo": "Cut the Rope: Magic",
+				"thumbnail": "https://games.assets.gamepix.com/40376/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-magic/embed?sid=1",
+				"description": "Join Om Nom%u2019s newest adventure and transform him into magical forms to help the lovable little monster recover candy stolen by an evil wizard! A magical mishap has accidentally teleported Om Nom to a mystical world filled with challenging puzzles for players of all ages. Can you use Om Nom%u2019s new skills to solve an evil wizard%u2019s tricks and traps?",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 2,
+				"titulo": "Cut the Rope 2",
+				"thumbnail": "https://games.assets.gamepix.com/40214/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-2/embed?sid=1",
+				"description": "SWEET! Om Nom's shenanigans continue in Cut the Rope 2 HTML5! With new characters, fresh gameplay elements and tricky missions, candy collecting has never been so fun! Cut the Rope 2 HTML5 brings fresh challenges and unanticipated obstacles to the candy crunching, physics-based phenomenon that has delighted millions of players around the world! If you like Cut the Rope, you'll love Cut the Rope 2!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 3,
+				"titulo": "God of Light",
+				"thumbnail": "https://games.assets.gamepix.com/G7625/thumbnail/small.png",
+				"url": "https://play.gamepix.com/god-of-light/embed?sid=1",
+				"description": "Sit back and become immersed into the world of God of Light, the game that rethinks the physics puzzle genre with its unique environment exploration gameplay, amazing graphics and exclusive soundtrack created by electronic music icon UNKLE.Join cute game mascot, Shiny, on his way to saving the universe from the impending darkness. Play through a variety of exciting game worlds and dozens of levels with mind-blowing puzzles. Your goal is to explore game levels, seek for game objects that reflect, split, combine, paint, bend and teleport rays of light energy to activate the Sources of Life and bring light back to the universe.Play the entire Celestial Tree chapter for free and unlock dozens of additional levels in Stone, Azure, Frozen and Space Trees for free using collected Fireflies or with in-app purchase.This game more than delivers when it comes to great gameplay experience, so what are you waiting for? Get ready for an amazing trip. Become God of Light!Product Features%u2022 Explore 6 different game worlds and 150 levels.%u2022 Use mirrors, prisms, splitters, collectors, black holes and filters to control rays of light energy.%u2022 Unlock and share your achievements with friends. Do you have what it takes to earn them all?%u2022 Collect glowing creatures that help you solve puzzles.%u2022 Receive regular updates with new game worlds and levels to explore.",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 4,
+				"titulo": "Cut The Rope",
+				"thumbnail": "https://games.assets.gamepix.com/40071/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope/embed?sid=1",
+				"description": "Cut the rope to feed candy to Om Nom! A mysterious package has arrived, and the little monster inside has only one request: CANDY! Collect gold stars, discover hidden prizes and unlock exciting new levels in this addictively fun, award-winning, physics-based game!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 5,
+				"titulo": "Calming Lia",
+				"thumbnail": "https://games.assets.gamepix.com/40355/thumbnail/small.png",
+				"url": "https://play.gamepix.com/calming-lia/embed?sid=1",
+				"description": "Save a little girl from her nightmares! Calming Lia is a relaxing match-three game. Like a lullaby, it is best played at night before sleeping. Help Lia and her plush friend, Bao the bear, rescue her dreams from the horrors of the evil Boogie Man!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 6,
+				"titulo": "Cut the Rope Experiments",
+				"thumbnail": "https://games.assets.gamepix.com/40337/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-experiments/embed?sid=1",
+				"description": "The little green monster Om Nom is back and hungrier than ever! Team up with the Professor, a mad (but not bad!) scientist determined to study Om Nom%u2019s candy-loving behavior through a series of experiments, 200 levels and more to come!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 7,
+				"titulo": "Tom & Jerry Mouse Maze",
+				"thumbnail": "https://games.assets.gamepix.com/40363/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tom-jerry-mouse-maze/embed?sid=1",
+				"description": "Cheese is everywhere and Jerry is on a mission to get it all! But Jerry must be careful as Tom is on the prowl. Help Jerry race through fun-packed levels collecting cheese while avoiding Tom in this classic game of cat and mouse.",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 8,
+				"titulo": "Doodle Creatures",
+				"thumbnail": "https://games.assets.gamepix.com/40271/thumbnail/small.png",
+				"url": "https://play.gamepix.com/doodle-creatures/embed?sid=1",
+				"description": "What happens if you combine an elephant with a flamingo? In Doodle Creatures you can find out as you create hundreds of fantastic and unique Creatures by combining different animals. Take the speed of a cheetah and combine with flying ability of an eagle. Awesomeness awaits!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 9,
+				"titulo": "TenTrix",
+				"thumbnail": "https://games.assets.gamepix.com/40264/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tentrix/embed?sid=1",
+				"description": "TenTrix is easy to play and a pleasurable game for all ages! Simply drag the blocks and fill up all colored grids. Once you start, you will definitely be hooked: this 3D-style game awaits you!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 10,
+				"titulo": "Gemcrafter",
+				"thumbnail": "https://games.assets.gamepix.com/40343/thumbnail/small.png",
+				"url": "https://play.gamepix.com/gemcrafter/embed?sid=1",
+				"description": "Join Jim Kraftwerk on his journey and get ready for some three-of-a-kind matching, precious stones crafting and treasure hunting action. Do you have what it takes to become a true Gemcrafter?",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 11,
+				"titulo": "Cut The Rope: Time Travel",
+				"thumbnail": "https://games.assets.gamepix.com/40072/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-time-travel/embed?sid=1",
+				"description": "Join Om Nom as he travels back in time to feed his ancestors with candy. Cut the Rope: Time Travel is a completely new adventure filled with time-traveling, candy-crunching, physics-based action!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 12,
+				"titulo": "Tap the Frog Doodle",
+				"thumbnail": "https://games.assets.gamepix.com/40220/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tap-the-frog-doodle/embed?sid=1",
+				"description": "Tap the Frog Doodle features hours of gameplay, diverse mini-games filled with light-hearted humor and achievements to keep you coming back for more. Easy to pick-up yet challenging to master, Tap the Frog Doodle will have your fingers begging for more alone time with the cutest frog on your device.",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 13,
+				"titulo": "Pudding Monsters",
+				"thumbnail": "https://games.assets.gamepix.com/40435/thumbnail/small.png",
+				"url": "https://play.gamepix.com/pudding-monsters/embed?sid=1",
+				"description": "The Pudding Monsters are on a mission to save their friends from the cold-hearted fridge owner! Growing into an ULTIMATE MEGA MONSTER sounds like the most reliable plan. Off the table, out of the house, and into the city %u2013 swipe to stick the Pudding Monsters together and save their friends!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 14,
+				"titulo": "Happy Kittens Puzzle",
+				"thumbnail": "https://games.assets.gamepix.com/40340/thumbnail/small.png",
+				"url": "https://play.gamepix.com/happy-kittens-puzzle/embed?sid=1",
+				"description": "A cute take on the grid puzzle game: your goal is to fill the board with happy cats by switching out all of the grumpy ones. Think ahead and switch the cats around until you solve all 60 puzzles!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 15,
+				"titulo": "Pop-Pop Candies",
+				"thumbnail": "https://games.assets.gamepix.com/40327/thumbnail/small.png",
+				"url": "https://play.gamepix.com/poppop-candies/embed?sid=1",
+				"description": "Enjoy a sweet puzzle as you pop-pop all the candies using strategy and fast reflexes! Featuring 100+ challenging puzzles and marathon endurance levels this colorful Match-3 Puzzle Shooter game will entertain for hours.",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 16,
+				"titulo": "Farm Blocks 10x10",
+				"thumbnail": "https://games.assets.gamepix.com/40326/thumbnail/small.png",
+				"url": "https://play.gamepix.com/farm-blocks-10x10/embed?sid=1",
+				"description": "Farm Blocks 10x10 is easy to play and a pleasurable game for all ages! Simply drag the blocks and fill up all colored grids. Once you start, you will definitely be hooked: this 3D-style game awaits you!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 17,
+				"titulo": "Baseball for Clowns",
+				"thumbnail": "https://games.assets.gamepix.com/40300/thumbnail/small.png",
+				"url": "https://play.gamepix.com/baseball-for-clowns/embed?sid=1",
+				"description": "Henk was the best baseball player in the world before jokers cheated and defeated him with false means. And now, after Henk has retired, the jokers are back again to cause trouble! Help him get rid of the jokers once and for all!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 18,
+				"titulo": "Jelly Bomb",
+				"thumbnail": "https://games.assets.gamepix.com/40294/thumbnail/small.png",
+				"url": "https://play.gamepix.com/jelly-bomb/embed?sid=1",
+				"description": "Jelly Bomb has spread all over your kitchen tables! You can get rid of it by dripping it with a jelly remover, but watch out: there are only a few drops left, you will have to use them wisely to ensure the perfect splashing chain reaction!",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 19,
+				"titulo": "Fox Adventurer",
+				"thumbnail": "https://games.assets.gamepix.com/40292/thumbnail/small.png",
+				"url": "https://play.gamepix.com/fox-adventurer/embed?sid=1",
+				"description": "Play Fox Adventurer and help Mr. Fox in his magical adventure.. Switch between day and night to choose the right way to finish level. Create stone clones to jump higher and collect green gems.",
+				"categoriaId": 1
+			  },
+			  {
+				"id": 20,
+				"titulo": "Crazy Halloween Nail Doctor",
+				"thumbnail": "https://games.assets.gamepix.com/40289/thumbnail/small.png",
+				"url": "https://play.gamepix.com/crazy-halloween-nail-doctor/embed?sid=1",
+				"description": "Play an epic adventure story set during Halloween: the monsters have been injured by hunters and they urgently need a doctor, you are the only one who can help!",
+				"categoriaId": 1
+			  }
+	  
+		]
+    },
+    {
+      "id": 2,
+      "titulo": "Girls",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Cursos de Back End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+	  "games":[
+			{
+					"id": 123,
+					"titulo": "Cut the Rope 2",
+					"thumbnail": "https://games.assets.gamepix.com/40214/thumbnail/small.png",
+					"url": "https://play.gamepix.com/cut-the-rope-2/embed?sid=1",
+					"description": "SWEET! Om Nom's shenanigans continue in Cut the Rope 2 HTML5! With new characters, fresh gameplay elements and tricky missions, candy collecting has never been so fun! Cut the Rope 2 HTML5 brings fresh challenges and unanticipated obstacles to the candy crunching, physics-based phenomenon that has delighted millions of players around the world! If you like Cut the Rope, you'll love Cut the Rope 2!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 124,
+					"titulo": "Hair Do Design 2",
+					"thumbnail": "https://games.assets.gamepix.com/40445/thumbnail/small.png",
+					"url": "https://play.gamepix.com/hair-do-design-2/embed?sid=1",
+					"description": "It's your first day of college and you want to change yourself to be the most stylish girl at campus with different hair styles. It's your time to shine: no makeup is complete without some amazing hair styles! Wash it all off to try new creative hair stylish shapes & ideas!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 125,
+					"titulo": "Monster Hospital",
+					"thumbnail": "https://games.assets.gamepix.com/40352/thumbnail/small.png",
+					"url": "https://play.gamepix.com/monster-hospital/embed?sid=1",
+					"description": "Monster Hospital is a free interactive game for kids: the perfect combination of fun and learning! With 3 Mini games to play, your kids will learn about medical care and will enjoy child doctoring!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 126,
+					"titulo": "Nail Doctor",
+					"thumbnail": "https://games.assets.gamepix.com/40260/thumbnail/small.png",
+					"url": "https://play.gamepix.com/nail-doctor/embed?sid=1",
+					"description": "Nail Surgery is an innovative concept as of today. Our mission is to make awesome educational games for kids using an interactive, first-hand virtual surgery experience. Everyone knows that medicine and surgery are bit of boring and weird topic , but we believe that our visitors need an enjoyable, goal-oriented interactive experience to fully grasp the complex or unfamiliar concepts of surgery.",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 127,
+					"titulo": "Doctor Teeth",
+					"thumbnail": "https://games.assets.gamepix.com/40293/thumbnail/small.png",
+					"url": "https://play.gamepix.com/doctor-teeth/embed?sid=1",
+					"description": "Become a dentist and take care of your patients' teeth! Use different tools to treat caries, bad breath and extract teeth. Play fun mini games and use the stethoscope hints in case you're stuck on your to-do list. Can you give all your patients their smile back?",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 128,
+					"titulo": "Crazy Halloween Nail Doctor",
+					"thumbnail": "https://games.assets.gamepix.com/40289/thumbnail/small.png",
+					"url": "https://play.gamepix.com/crazy-halloween-nail-doctor/embed?sid=1",
+					"description": "Play an epic adventure story set during Halloween: the monsters have been injured by hunters and they urgently need a doctor, you are the only one who can help!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 129,
+					"titulo": "Brain Doctor",
+					"thumbnail": "https://games.assets.gamepix.com/40351/thumbnail/small.png",
+					"url": "https://play.gamepix.com/brain-doctor/embed?sid=1",
+					"description": "Brain Doctor, a really innovative concept game for kids. Become a surgeon and give different brain surgery treatment to different patients with the use of lots of medical equipment. Many tools to play like: Heartbeat Checking, Stethoscope, Thermometer, Blood Pressure, Injection, Banded, X-Ray, Germs Remover, Plaster.",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 130,
+					"titulo": "Kids Kitchen",
+					"thumbnail": "https://games.assets.gamepix.com/40350/thumbnail/small.png",
+					"url": "https://play.gamepix.com/kids-kitchen/embed?sid=1",
+					"description": "Are you ready to open your first restaurant? Grab your apron and chef's hat and let's open your restaurant. You are the restaurant star, challenge your customers for crazy eating and experience the master eating challenge!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 131,
+					"titulo": "Hair Do Design",
+					"thumbnail": "https://games.assets.gamepix.com/40273/thumbnail/small.png",
+					"url": "https://play.gamepix.com/hair-do-design/embed?sid=1",
+					"description": "Which hair style should I do today? Does this style suit me? Girls love to style their hair differently every time they go out. This process starts with hair spa, makeover and ends with styling your hair. Learn to style your own hair!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 132,
+					"titulo": "Monster Nail Doctor",
+					"thumbnail": "https://games.assets.gamepix.com/40290/thumbnail/small.png",
+					"url": "https://play.gamepix.com/monster-nail-doctor/embed?sid=1",
+					"description": "Each one of these four creepy creatures has really been neglecting themselves lately. They could definitely use some monstrous manicures. Can you fix up their feet in this game for girls? Help them go from ghoulish to gorgeous!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 133,
+					"titulo": "Bubble Hero 3D",
+					"thumbnail": "https://games.assets.gamepix.com/40104/thumbnail/small.png",
+					"url": "https://play.gamepix.com/bubble-hero-3d/embed?sid=1",
+					"description": "Savor in the satisfying sounds of bubbles popping as you work to free the adorable mice and in doing so become the Bubble Hero. Free all the mice from their bubbles and progress to the next of 80 challenging and addictive levels. Try Bubble Hero 3D and you'll love it.",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 134,
+					"titulo": "Sweety Mahjong",
+					"thumbnail": "https://games.assets.gamepix.com/11/thumbnail/small.png",
+					"url": "https://play.gamepix.com/sweety-mahjong/embed?sid=1",
+					"description": "Enjoy this coloroued mahjong game with sweety symbols!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 135,
+					"titulo": "Beauty Cat Salon",
+					"thumbnail": "https://games.assets.gamepix.com/40246/thumbnail/small.png",
+					"url": "https://play.gamepix.com/beauty-cat-salon/embed?sid=1",
+					"description": "Gabriel is very kind and really cares about her cat, unlike Brenda: she has an evil mind and wants to mess with all the cats. Act as the evil one and don't let Gabriel know what you did to the cat or you'll get caught!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 136,
+					"titulo": "Jelly Rock Ola",
+					"thumbnail": "https://games.assets.gamepix.com/40155/thumbnail/small.png",
+					"url": "https://play.gamepix.com/jelly-rock-ola/embed?sid=1",
+					"description": "Ms Ola has an idea to make some new jellies. In order to have enough ingredients, she decides to make an adventure through the Jelly Forest. Pass level 20 to unlock the Jelly Kingdom. Help her to collect new fantastic jelly beans. This is the easiest game with playing by swiping.",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 137,
+					"titulo": "Dropme",
+					"thumbnail": "https://games.assets.gamepix.com/20064/thumbnail/small.png",
+					"url": "https://play.gamepix.com/dropme/embed?sid=1",
+					"description": "Help cute creatures climb into the tube! Amazing graphics, nice audio, lovable characters and many challenges. Have fun with Drop Me!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 138,
+					"titulo": "Panda Hair-do",
+					"thumbnail": "https://games.assets.gamepix.com/40126/thumbnail/small.png",
+					"url": "https://play.gamepix.com/panda-hairdo/embed?sid=1",
+					"description": "Do you love pandas? This young girl is a panda lover and she takes care of her appearance everyday. Look after her hair, then dress her up for her daily look and help her prepare herself for a great day! Start by washing her messy hair!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 139,
+					"titulo": "The Best Pizza",
+					"thumbnail": "https://games.assets.gamepix.com/40129/thumbnail/small.png",
+					"url": "https://play.gamepix.com/the-best-pizza/embed?sid=1",
+					"description": "Do you like pizza? What kind of topping do you like most? Ezzy is a young chef and she loves to make pizza so much. She's already an expert at some different pizza recipes. Italian Pizza, Hawaiian pizza, etc she make it all! It would be interesting if you can make your own pizza. Let's try to make The Best Pizza with Ezzy!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 140,
+					"titulo": "Princess Curse",
+					"thumbnail": "https://games.assets.gamepix.com/40127/thumbnail/small.png",
+					"url": "https://play.gamepix.com/princess-curse/embed?sid=1",
+					"description": "The princess was walking around in the forest when she found a lone house and accidentally spilled the witches cauldron. The furious witch decided to curse the princess. Remove the curse and help the princess look beautiful in front of her prince charming.",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 141,
+					"titulo": "Baby Bear",
+					"thumbnail": "https://games.assets.gamepix.com/40124/thumbnail/small.png",
+					"url": "https://play.gamepix.com/baby-bear/embed?sid=1",
+					"description": "Mommy Bear is going to have a baby and Daddy Bear is very excited. They are about to learn how to raise a baby. It must be hard for them since it's the first time for them. But it's okay, they will do their best at raising the Baby Bear. They need someone to guide them, would you like to give a hand?",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 142,
+					"titulo": "Fun Summer Holiday",
+					"thumbnail": "https://games.assets.gamepix.com/40125/thumbnail/small.png",
+					"url": "https://play.gamepix.com/fun-summer-holiday/embed?sid=1",
+					"description": "It's summer time! What comes to your mind when summer has arrived? Beach? Holiday? Ashley and friends want to spend their Fun Summer Holiday together, but she hasn't prepared anything for that day. Help Ashley to pick one of her favourite swimsuits!",
+					"categoriaId": 2
+				  },
+				  {
+					"id": 143,
+					"titulo": "Your Queen Destiny",
+					"thumbnail": "https://games.assets.gamepix.com/40130/thumbnail/small.png",
+					"url": "https://play.gamepix.com/your-queen-destiny/embed?sid=1",
+					"description": "How would you be destined to be if you were a queen? What kind of queen do you want to be? You know, sometimes not every queen is kind, graceful and wise. What if you tried this quiz and looked what kind of queen would suit you well? Depending on your answers, here you can be an evil or a good queen.",
+					"categoriaId": 2
+				  }
+	  ]
+    },
+    {
+      "id": 3,
+      "titulo": "Arcade",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/cursos-online-mobile"
+      },
+	  "games":[
+					{
+				"id": 222,
+				"titulo": "Cut the Rope: Magic",
+				"thumbnail": "https://games.assets.gamepix.com/40376/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-magic/embed?sid=1",
+				"description": "Join Om Nom%u2019s newest adventure and transform him into magical forms to help the lovable little monster recover candy stolen by an evil wizard! A magical mishap has accidentally teleported Om Nom to a mystical world filled with challenging puzzles for players of all ages. Can you use Om Nom%u2019s new skills to solve an evil wizard%u2019s tricks and traps?",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 223,
+				"titulo": "3D Darts",
+				"thumbnail": "https://games.assets.gamepix.com/40438/thumbnail/small.png",
+				"url": "https://play.gamepix.com/3d-darts/embed?sid=1",
+				"description": "Darts 3D, a famous classic game now on your device in gorgeous 3D, defeat opponents in hundreds of levels. Or just play with your friends on one device. Just throw the dart and get a score. Very easy to start, but hard to master.",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 224,
+				"titulo": "Angry Gran",
+				"thumbnail": "https://games.assets.gamepix.com/40442/thumbnail/small.png",
+				"url": "https://play.gamepix.com/angry-gran/embed?sid=1",
+				"description": "Play the game that began the Angry Gran series and take to the streets and whack those punk neighbors!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 225,
+				"titulo": "Foot Chinko World Cup",
+				"thumbnail": "https://games.assets.gamepix.com/40405/thumbnail/small.png",
+				"url": "https://play.gamepix.com/foot-chinko-world-cup/embed?sid=1",
+				"description": "Foot Chinko World Cup features a different take on soccer games with a unique blend of pachinko and pinball. As fun as soccer can get!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 226,
+				"titulo": "Tom & Jerry Mouse Maze",
+				"thumbnail": "https://games.assets.gamepix.com/40363/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tom-jerry-mouse-maze/embed?sid=1",
+				"description": "Cheese is everywhere and Jerry is on a mission to get it all! But Jerry must be careful as Tom is on the prowl. Help Jerry race through fun-packed levels collecting cheese while avoiding Tom in this classic game of cat and mouse.",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 227,
+				"titulo": "Bomber Friends",
+				"thumbnail": "https://games.assets.gamepix.com/40344/thumbnail/small.png",
+				"url": "https://play.gamepix.com/bomber-friends/embed?sid=1",
+				"description": "Bomb your friends and be the last to survive to win the match! Collect power-ups to get more powerful bombs! Use the explosive bombs to blast your friends from across the map!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 228,
+				"titulo": "Tap the Frog Doodle",
+				"thumbnail": "https://games.assets.gamepix.com/40220/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tap-the-frog-doodle/embed?sid=1",
+				"description": "Tap the Frog Doodle features hours of gameplay, diverse mini-games filled with light-hearted humor and achievements to keep you coming back for more. Easy to pick-up yet challenging to master, Tap the Frog Doodle will have your fingers begging for more alone time with the cutest frog on your device.",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 229,
+				"titulo": "Street Freekick 3D",
+				"thumbnail": "https://games.assets.gamepix.com/40440/thumbnail/small.png",
+				"url": "https://play.gamepix.com/street-freekick-3d/embed?sid=1",
+				"description": "Street Freekick 3D takes freekick game in modern city streets. Curve the ball and defeat opponents in hundreds of levels in gorgeous 3D. Play on any of your devices. Just kick the ball in gates and get a score. Very easy to start, but hard to master.",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 230,
+				"titulo": "Beach Bowling 3D",
+				"thumbnail": "https://games.assets.gamepix.com/40439/thumbnail/small.png",
+				"url": "https://play.gamepix.com/beach-bowling-3d/embed?sid=1",
+				"description": "Beach Bowling 3D is a game where you can test your bowling skills on summer beach in gorgeous 3D. Defeat opponents in hundreds of levels. Or just play with your friends on one device. Just throw the ball and get a score. Very easy to start, but hard to master.",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 231,
+				"titulo": "Baseball Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40406/thumbnail/small.png",
+				"url": "https://play.gamepix.com/baseball-hero/embed?sid=1",
+				"description": "Hit your baseballs hard and... avoid bombs and tomatoes! Improve your ability hitting multiple balls from different positions. You'll become a Baseball Hero!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 232,
+				"titulo": "Grand Prix Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40334/thumbnail/small.png",
+				"url": "https://play.gamepix.com/grand-prix-hero/embed?sid=1",
+				"description": "Compete across multiple continents as you race in the Grand Prix Series. Dodge traffic, boost at high speeds, collect coins and upgrade your car for the next race. Are you the Grand Prix Hero?",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 233,
+				"titulo": "Tower Mania",
+				"thumbnail": "https://games.assets.gamepix.com/40323/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tower-mania/embed?sid=1",
+				"description": "Build your towers in a fantastic futuristic world in the simplest one-click manner! Place floating blocks as precisely as you can and discover all the wonderful locations!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 234,
+				"titulo": "Boss Level - Pumpkin Madness",
+				"thumbnail": "https://games.assets.gamepix.com/40417/thumbnail/small.png",
+				"url": "https://play.gamepix.com/boss-level-pumpkin-madness/embed?sid=1",
+				"description": "Enjoy this Halloween version of the Boss Level Shootout original game. Billy boy fell into a retro game console and is now fighting the boss!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 235,
+				"titulo": "Boss Level Shootout",
+				"thumbnail": "https://games.assets.gamepix.com/40416/thumbnail/small.png",
+				"url": "https://play.gamepix.com/boss-level-shootout/embed?sid=1",
+				"description": "Gamer boy Billy loved to play video games but one day his retro console ate him. Now Billy is inside the retro style game and must beat the bosses in this ultimate shootout. Test your skills in shooting, running, picking power-ups and be a winner!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 236,
+				"titulo": "Skating Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40413/thumbnail/small.png",
+				"url": "https://play.gamepix.com/skating-hero/embed?sid=1",
+				"description": "Choose your hero and compete across 3 programs in the Figure Skating event. Hit the matching button (or swipe) as they line up with the top slot. Time your moves perfectly to boost your score and win!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 237,
+				"titulo": "Slalom Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40412/thumbnail/small.png",
+				"url": "https://play.gamepix.com/slalom-hero/embed?sid=1",
+				"description": "Choose your hero and compete across 3 courses in the Slalom event. Steer between the slalom gates and collect boosts to improve your times. Will you win a Gold Medal? Be a Slalom Hero!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 238,
+				"titulo": "Hockey Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40411/thumbnail/small.png",
+				"url": "https://play.gamepix.com/hockey-hero/embed?sid=1",
+				"description": "Choose your hero and compete against 3 fierce opponents in the Ice Hockey event. Avoid the attacking players to approach the goal line. Once in front of the goal time your shot to score! Will you win a Gold Medal by scoring in all 3 periods? Be a Hockey Hero!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 239,
+				"titulo": "Bouncy Dunk",
+				"thumbnail": "https://games.assets.gamepix.com/40407/thumbnail/small.png",
+				"url": "https://play.gamepix.com/bouncy-dunk/embed?sid=1",
+				"description": "Get ready, shoot, score and WIN: Bouncy Dunk will make your excitement grow! Test your skills by winning all the challenges and unlock special basketballs to grow your power and style! Become a Bouncy Champion NOW!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 240,
+				"titulo": "Pop-Pop Candies",
+				"thumbnail": "https://games.assets.gamepix.com/40327/thumbnail/small.png",
+				"url": "https://play.gamepix.com/poppop-candies/embed?sid=1",
+				"description": "Enjoy a sweet puzzle as you pop-pop all the candies using strategy and fast reflexes! Featuring 100+ challenging puzzles and marathon endurance levels this colorful Match-3 Puzzle Shooter game will entertain for hours.",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 241,
+				"titulo": "Farm Blocks 10x10",
+				"thumbnail": "https://games.assets.gamepix.com/40326/thumbnail/small.png",
+				"url": "https://play.gamepix.com/farm-blocks-10x10/embed?sid=1",
+				"description": "Farm Blocks 10x10 is easy to play and a pleasurable game for all ages! Simply drag the blocks and fill up all colored grids. Once you start, you will definitely be hooked: this 3D-style game awaits you!",
+				"categoriaId": 3
+			  },
+			  {
+				"id": 242,
+				"titulo": "Yeti Sensation",
+				"thumbnail": "https://games.assets.gamepix.com/40301/thumbnail/small.png",
+				"url": "https://play.gamepix.com/yeti-sensation/embed?sid=1",
+				"description": "Bigfoot wanted! Help the embarrassed Yeti find a way to his new home, avoid sly snowmen, dangerous traps and other obstacles, buy new boosts in the supermarket and run away as further as possible!",
+				"categoriaId": 3
+			  }	
+	  ]
+    },
+    {
+      "id": 4,
+      "titulo": "Sports",
+      "cor": "orange",
+	  "link_extra": {
+        "text": "Cursos de Data Science na Alura",
+        "url": "https://www.alura.com.br/cursos-online-mobile"
+      },
+	  "games":[
+					{
+				"id": 376,
+				"titulo": "3D Darts",
+				"thumbnail": "https://games.assets.gamepix.com/40438/thumbnail/small.png",
+				"url": "https://play.gamepix.com/3d-darts/embed?sid=1",
+				"description": "Darts 3D, a famous classic game now on your device in gorgeous 3D, defeat opponents in hundreds of levels. Or just play with your friends on one device. Just throw the dart and get a score. Very easy to start, but hard to master.",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 377,
+				"titulo": "Foot Chinko World Cup",
+				"thumbnail": "https://games.assets.gamepix.com/40405/thumbnail/small.png",
+				"url": "https://play.gamepix.com/foot-chinko-world-cup/embed?sid=1",
+				"description": "Foot Chinko World Cup features a different take on soccer games with a unique blend of pachinko and pinball. As fun as soccer can get!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 378,
+				"titulo": "Street Freekick 3D",
+				"thumbnail": "https://games.assets.gamepix.com/40440/thumbnail/small.png",
+				"url": "https://play.gamepix.com/street-freekick-3d/embed?sid=1",
+				"description": "Street Freekick 3D takes freekick game in modern city streets. Curve the ball and defeat opponents in hundreds of levels in gorgeous 3D. Play on any of your devices. Just kick the ball in gates and get a score. Very easy to start, but hard to master.",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 379,
+				"titulo": "Beach Bowling 3D",
+				"thumbnail": "https://games.assets.gamepix.com/40439/thumbnail/small.png",
+				"url": "https://play.gamepix.com/beach-bowling-3d/embed?sid=1",
+				"description": "Beach Bowling 3D is a game where you can test your bowling skills on summer beach in gorgeous 3D. Defeat opponents in hundreds of levels. Or just play with your friends on one device. Just throw the ball and get a score. Very easy to start, but hard to master.",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 380,
+				"titulo": "Mafia Billiard Tricks",
+				"thumbnail": "https://games.assets.gamepix.com/40436/thumbnail/small.png",
+				"url": "https://play.gamepix.com/mafia-billiard-tricks/embed?sid=1",
+				"description": "Mafia Billiard Tricks is a billiard arcade game in which you can play the challenging game of billiards. You are not only playing for fun though; your opponents are part of the infamous mafia. You must earn their respect by beating each crew member!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 381,
+				"titulo": "Baseball Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40406/thumbnail/small.png",
+				"url": "https://play.gamepix.com/baseball-hero/embed?sid=1",
+				"description": "Hit your baseballs hard and... avoid bombs and tomatoes! Improve your ability hitting multiple balls from different positions. You'll become a Baseball Hero!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 382,
+				"titulo": "Grand Prix Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40334/thumbnail/small.png",
+				"url": "https://play.gamepix.com/grand-prix-hero/embed?sid=1",
+				"description": "Compete across multiple continents as you race in the Grand Prix Series. Dodge traffic, boost at high speeds, collect coins and upgrade your car for the next race. Are you the Grand Prix Hero?",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 383,
+				"titulo": "Stock Car Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40415/thumbnail/small.png",
+				"url": "https://play.gamepix.com/stock-car-hero/embed?sid=1",
+				"description": "Compete across North America as you race in the Stock Car Series. Dodge traffic, boost around banked corners, collect coins and upgrade your car for the next race. Are you the Stock Car Hero the world needs?",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 384,
+				"titulo": "Soccer Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40414/thumbnail/small.png",
+				"url": "https://play.gamepix.com/soccer-hero/embed?sid=1",
+				"description": "Choose your hero and compete against 3 fierce opponents in the World Soccer event. Will you win a Gold Medal by scoring all 3 chances? Be a Soccer Hero!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 385,
+				"titulo": "Skating Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40413/thumbnail/small.png",
+				"url": "https://play.gamepix.com/skating-hero/embed?sid=1",
+				"description": "Choose your hero and compete across 3 programs in the Figure Skating event. Hit the matching button (or swipe) as they line up with the top slot. Time your moves perfectly to boost your score and win!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 386,
+				"titulo": "Slalom Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40412/thumbnail/small.png",
+				"url": "https://play.gamepix.com/slalom-hero/embed?sid=1",
+				"description": "Choose your hero and compete across 3 courses in the Slalom event. Steer between the slalom gates and collect boosts to improve your times. Will you win a Gold Medal? Be a Slalom Hero!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 387,
+				"titulo": "Hockey Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40411/thumbnail/small.png",
+				"url": "https://play.gamepix.com/hockey-hero/embed?sid=1",
+				"description": "Choose your hero and compete against 3 fierce opponents in the Ice Hockey event. Avoid the attacking players to approach the goal line. Once in front of the goal time your shot to score! Will you win a Gold Medal by scoring in all 3 periods? Be a Hockey Hero!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 388,
+				"titulo": "Bouncy Dunk",
+				"thumbnail": "https://games.assets.gamepix.com/40407/thumbnail/small.png",
+				"url": "https://play.gamepix.com/bouncy-dunk/embed?sid=1",
+				"description": "Get ready, shoot, score and WIN: Bouncy Dunk will make your excitement grow! Test your skills by winning all the challenges and unlock special basketballs to grow your power and style! Become a Bouncy Champion NOW!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 389,
+				"titulo": "Basket Champs",
+				"thumbnail": "https://games.assets.gamepix.com/40307/thumbnail/small.png",
+				"url": "https://play.gamepix.com/basket-champs/embed?sid=1",
+				"description": "Basket Champs is the brand new game from the developer of Foot Chinko. Select your basketball team and play in World Championship.",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 390,
+				"titulo": "Baseball for Clowns",
+				"thumbnail": "https://games.assets.gamepix.com/40300/thumbnail/small.png",
+				"url": "https://play.gamepix.com/baseball-for-clowns/embed?sid=1",
+				"description": "Henk was the best baseball player in the world before jokers cheated and defeated him with false means. And now, after Henk has retired, the jokers are back again to cause trouble! Help him get rid of the jokers once and for all!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 391,
+				"titulo": "Foot Chinko",
+				"thumbnail": "https://games.assets.gamepix.com/20048/thumbnail/small.png",
+				"url": "https://play.gamepix.com/foot-chinko/embed?sid=1",
+				"description": "Challenge your rivals in the most famous soccer international tournaments. Are you skillful enough to fulfill your trophy case through the +90 levels of the game? Will you stand victorious after you confront the Goalkeeper Duck of Evil!?",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 392,
+				"titulo": "Penalty Shooters",
+				"thumbnail": "https://games.assets.gamepix.com/20067/thumbnail/small.png",
+				"url": "https://play.gamepix.com/penalty-shooters/embed?sid=1",
+				"description": "Two men, one ball and one goal - to win the penalty shootout warfare. Can you stand the pressure of the full stadium and win the cup in this exciting football game? Pick one of 32 teams and win the glory on the soccer field!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 393,
+				"titulo": "Sprint Club Nitro",
+				"thumbnail": "https://games.assets.gamepix.com/20051/thumbnail/small.png",
+				"url": "https://play.gamepix.com/sprint-club-nitro/embed?sid=1",
+				"description": "An arcade style 3D racing game with 9 increasingly challenging levels across 3 different landscapes. Race amongst 20 cars to the finish line collecting nitro boosts to overtake. Spend your race winnings on upgrades to improve the car - from better grip and higher top speeds to longer nitro boosts!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 394,
+				"titulo": "Cricket Hero",
+				"thumbnail": "https://games.assets.gamepix.com/40437/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cricket-hero/embed?sid=1",
+				"description": "Are you ready to test your reaction times? In Cricket Hero you%u2019ll face the thrills and ecstasy of being a cricket player. Besides regular cricket balls, they may throw at you some other stuff too.",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 395,
+				"titulo": "Basketball Master",
+				"thumbnail": "https://games.assets.gamepix.com/40083/thumbnail/small.png",
+				"url": "https://play.gamepix.com/basketball-master/embed?sid=1",
+				"description": "Basketball Master is a brand new sports arcade game inspired by street basketball. You are a player and your aim is to shoot the basketball into the hoop and make the higher score!",
+				"categoriaId": 4
+			  },
+			  {
+				"id": 396,
+				"titulo": "Pilot Heroes",
+				"thumbnail": "https://games.assets.gamepix.com/40074/thumbnail/small.png",
+				"url": "https://play.gamepix.com/pilot-heroes/embed?sid=1",
+				"description": "A multi-level arcade flying game where you must extinguish fires, avoid trees, chase other planes and complete a whole bunch of other missions! Collecting gems increases your pilot ranking and there is a log book to track progress.",
+				"categoriaId": 4
+			  }
+	  ]
+    },
+    {
+      "id": 5,
+      "titulo": "Board",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+	  "games":[
+						{
+				"id": 431,
+				"titulo": "Algerian Solitaire",
+				"thumbnail": "https://games.assets.gamepix.com/40291/thumbnail/small.png",
+				"url": "https://play.gamepix.com/algerian-solitaire/embed?sid=1",
+				"description": "Welcome to Algerian Solitaire, a different solitaire variation for the sturdiest and more resilient players. Some prophets claim that you must actually experience the isolation of the desert to be mentally focused and complete this game.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 432,
+				"titulo": "Refuge Solitaire",
+				"thumbnail": "https://games.assets.gamepix.com/40262/thumbnail/small.png",
+				"url": "https://play.gamepix.com/refuge-solitaire/embed?sid=1",
+				"description": "Are you having a boring day? Play Refuge Solitaire and move all the cards from the outer piles (tableau) to the eight foundation piles below. Complete the Solitaire!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 433,
+				"titulo": "Mahjong Deluxe",
+				"thumbnail": "https://games.assets.gamepix.com/40109/thumbnail/small.png",
+				"url": "https://play.gamepix.com/mahjong-deluxe/embed?sid=1",
+				"description": "Mahjong Deluxe is a free mahjong game based on a classic Chinese game. The goal is to remove all tiles from the board. You may remove only paired free tiles.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 434,
+				"titulo": "Spider Solitaire",
+				"thumbnail": "https://games.assets.gamepix.com/40112/thumbnail/small.png",
+				"url": "https://play.gamepix.com/spider-solitaire/embed?sid=1",
+				"description": "Enjoy this stylish version of the classic Spider Solitaire!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 435,
+				"titulo": "Solitaire",
+				"thumbnail": "https://games.assets.gamepix.com/40077/thumbnail/small.png",
+				"url": "https://play.gamepix.com/solitaire/embed?sid=1",
+				"description": "Play your favorite solitaire game for free! The best Solitaire game also called Klondike Solitaire, is the best game for players who love card games. Stack cards in descending order and alternating colors (a red queen on a black king etc.) and move cards of the same kind into the four piles, starting with the Ace.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 436,
+				"titulo": "Blackjack master",
+				"thumbnail": "https://games.assets.gamepix.com/40383/thumbnail/small.png",
+				"url": "https://play.gamepix.com/blackjack-master/embed?sid=1",
+				"description": "Blackjack is one of the most popular casino games in the world. Try your luck in this card comparing game. What are you waiting for? Deal the cards and get your highscore!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 437,
+				"titulo": "Speed Pool King",
+				"thumbnail": "https://games.assets.gamepix.com/20052/thumbnail/small.png",
+				"url": "https://play.gamepix.com/speed-pool-king/embed?sid=1",
+				"description": "A fast-paced pool game for mobile and tablet devices. Clear the table as quickly as you can!  How many balls can you pot before the time runs out? Let's find out!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 438,
+				"titulo": "Klondike Solitaire",
+				"thumbnail": "https://games.assets.gamepix.com/40111/thumbnail/small.png",
+				"url": "https://play.gamepix.com/klondike-solitaire/embed?sid=1",
+				"description": "Enjoy this stylish version of the classic Klondike Solitaire!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 439,
+				"titulo": "Tic Tac Toe HTML5",
+				"thumbnail": "https://games.assets.gamepix.com/40115/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tic-tac-toe-html5/embed?sid=1",
+				"description": "Tic Tac Toe HTML5 is the most famous strategy game. Enjoy this classic game with the 3x3 scheme and two variant 5x5 and 7x7 where you have to place 4 marks instead of 3.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 440,
+				"titulo": "Freecell Solitaire",
+				"thumbnail": "https://games.assets.gamepix.com/40113/thumbnail/small.png",
+				"url": "https://play.gamepix.com/freecell-solitaire/embed?sid=1",
+				"description": "Enjoy this stylish version of the classic Freecell Solitaire!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 441,
+				"titulo": "Farm Slots",
+				"thumbnail": "https://games.assets.gamepix.com/40150/thumbnail/small.png",
+				"url": "https://play.gamepix.com/farm-slots/embed?sid=1",
+				"description": "Pay out table shows winnings. Increase winning chances by increasing numbers of winning lines from 1-5. Increase pay outs by increasing the bet from 1-10 credits. Collect chests and fortune wheels in any of the bet lines, to fill up the meter and get a chance at the mini games.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 442,
+				"titulo": "Pirate Slots",
+				"thumbnail": "https://games.assets.gamepix.com/40152/thumbnail/small.png",
+				"url": "https://play.gamepix.com/pirate-slots/embed?sid=1",
+				"description": "Pay out table shows winnings. Increase winning chances by increasing numbers of winning lines from 1-5. Increase pay outs by increasing the bet from 1-10 credits. Collect chests and fortune wheels in any of the bet lines, to fill up the meter and get a chance at the mini games.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 443,
+				"titulo": "Gold Miner Slots",
+				"thumbnail": "https://games.assets.gamepix.com/40153/thumbnail/small.png",
+				"url": "https://play.gamepix.com/gold-miner-slots/embed?sid=1",
+				"description": "Pay out table shows winnings. Increase winning chances by increasing numbers of winning lines from 1-5. Increase pay outs by increasing the bet from 1-10 credits. Collect chests and fortune wheels in any of the bet lines, to fill up the meter and get a chance at the mini games.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 444,
+				"titulo": "Mega Slots",
+				"thumbnail": "https://games.assets.gamepix.com/40154/thumbnail/small.png",
+				"url": "https://play.gamepix.com/mega-slots/embed?sid=1",
+				"description": "Very exiting slot game, with 6 wheels. Win horizontally or diagonally with 3 or more items of the same kind. Get the spinning wheel, and win even more.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 445,
+				"titulo": "Fantasy Slots",
+				"thumbnail": "https://games.assets.gamepix.com/40149/thumbnail/small.png",
+				"url": "https://play.gamepix.com/fantasy-slots/embed?sid=1",
+				"description": "Pay out table shows winnings. Increase winning chances by increasing numbers of winning lines from 1-5. Increase pay outs by increasing the bet from 1-10 credits. Collect chests and fortune wheels in any of the bet lines, to fill up the meter and get a chance at the mini games.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 446,
+				"titulo": "Fruit Slots",
+				"thumbnail": "https://games.assets.gamepix.com/40151/thumbnail/small.png",
+				"url": "https://play.gamepix.com/fruit-slots/embed?sid=1",
+				"description": "Like excitement? Then Fruit Slots is the game for you. Play this game and have fun at the highest level! If you're lucky you can get the spinning wheel and win big.",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 447,
+				"titulo": "Slot Fruit",
+				"thumbnail": "https://games.assets.gamepix.com/28/thumbnail/small.png",
+				"url": "https://play.gamepix.com/slot-fruit/embed?sid=1",
+				"description": "A funny fruit Slot Machine. Spin Spin Spin and win!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 448,
+				"titulo": "Pocahontas Slots",
+				"thumbnail": "https://games.assets.gamepix.com/40116/thumbnail/small.png",
+				"url": "https://play.gamepix.com/pocahontas-slots/embed?sid=1",
+				"description": "Enjoy the legend of Pocahontas. Lots of gold coins are waiting for you in this cute slots game. Spin the slot, match the pictures and test your luck!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 449,
+				"titulo": "Scratch Fruit",
+				"thumbnail": "https://games.assets.gamepix.com/40070/thumbnail/small.png",
+				"url": "https://play.gamepix.com/scratch-fruit/embed?sid=1",
+				"description": "Scratch Fruit is an Instant Win game. Just scratch the silver part to discover if you have won some prizes, just for fun!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 450,
+				"titulo": "Three Cards Monte",
+				"thumbnail": "https://games.assets.gamepix.com/40114/thumbnail/small.png",
+				"url": "https://play.gamepix.com/three-cards-monte/embed?sid=1",
+				"description": "Three Cards Monte is an HTML5 card game. Enjoy this stylish version of one of the most classic cards games!",
+				"categoriaId": 5
+			  },
+			  {
+				"id": 451,
+				"titulo": "Banana Poker",
+				"thumbnail": "https://games.assets.gamepix.com/55111/thumbnail/small.png",
+				"url": "https://play.gamepix.com/banana-poker/embed?sid=1",
+				"description": "Poker. It can be hard to learn and surely very hard to master. If you put in the effort, it's a lot of fun and good for your brain. Nice that it's been given a sweet cartoon makeover. Enter Banana Poker...",
+				"categoriaId": 5
+			  }
+	  ]
+    }
+	
+  ]
+ 
+}

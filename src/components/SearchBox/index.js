@@ -5,6 +5,8 @@ import Box, { BoxItem, BoxText} from './components/Box';
 import videosRepository from '../../repositories/videos';
 import config from '../../config';
 
+import dadosInternos from '../../data/dados_iniciais.json';
+
 
 function SearchBox() {
   
@@ -12,7 +14,7 @@ function SearchBox() {
   const [q, setQ] = useState(localStorage.getItem("busca"));  // "", localStorage.getItem("busca")
   
   
-  useEffect(()=>{
+  /*useEffect(()=>{
 
     videosRepository.getGames()
       .then((games) => {
@@ -23,7 +25,15 @@ function SearchBox() {
       });
      
      
-   },[q])
+   },[q]) */
+
+   useEffect(() => {
+    
+    
+    setDadosModificados(dadosInternos.games);
+    
+
+  }, [q]);
 
    
 function search(rows) {

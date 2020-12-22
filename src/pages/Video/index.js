@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import dadosIniciais from '../../data/dados_iniciais.json';
+import dadosInternos from '../../data/dados_iniciais.json';
 import BannerVideo from './components/BannerVideo';
 import PageDefault from '../../components/PageDefault';
 import videosRepository from '../../repositories/videos';
@@ -7,6 +7,7 @@ import BannerAdd from '../../components/BannerAdd';
 
 function Video() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
+  const [dadosInterior, setDadosInterior] = useState([]);
  
 
   var url_atual = window.location.href;
@@ -32,15 +33,41 @@ function Video() {
       .catch((err) => {
         console.log(err.message);
       });
-  }, []);
+  }, []); 
 
 
+  /*useEffect(() => {
+      
+    setDadosInterior(dadosInternos.games);
+    
+   
+  }, []); 
 
+  {dadosInterior.map((game) => {
+    if(game.id == id){
+     return (
+
+       <BannerVideo
+       GameTitle={game.titulo}
+       GameDescription={game.description}
+       GameURL={game.url}
+       GameThumbnail={game.thumbnail}
+            
+      />
+     );
+   }
+
+        
+ })} */
+
+
+  
   return (
     <PageDefault paddingAll={0}>
-      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
+      {/*dadosInternos.length === 0 && (<div>Loading...</div>)*/}
 
       
+     
       <BannerVideo
        GameTitle={dadosIniciais.titulo}
        GameDescription={dadosIniciais.description}
@@ -48,6 +75,9 @@ function Video() {
        GameThumbnail={dadosIniciais.thumbnail}
             
       />
+
+    
+     
           
       
     </PageDefault>
