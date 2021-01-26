@@ -15,6 +15,17 @@ function Video() {
   var numero = url_atual.split('/');
   var id = numero[5];
 
+  function selectgame(allGames, id){
+     allGames.map((game)=>{
+       if(game.id==id){
+          setDadosInterior(game);  
+          return "";
+         
+       }
+     }) 
+
+  }
+
  /* var stringURL =  dadosIniciais.url;
   let params = new URLSearchParams(stringURL); //  ('abc=foo&def=%5Basf%5D&xyz=5');
   const youbeID =   params.get('https://www.youtube.com/watch?v'); //   ("abc") */
@@ -26,56 +37,65 @@ function Video() {
   
   useEffect(() => {
       
-    videosRepository.getGame(id)
+      selectgame(dadosInternos.games,id);
+ 
+      
+
+  },[]);
+
+   /* videosRepository.getGame(id)
       .then((Gameselecionado) => {
             setDadosIniciais(Gameselecionado);
         })
       .catch((err) => {
         console.log(err.message);
       });
-  }, []); 
-
-
-  /*useEffect(() => {
-      
-    setDadosInterior(dadosInternos.games);
-    
-   
-  }, []); 
-
-  {dadosInterior.map((game) => {
-    if(game.id == id){
-     return (
-
-       <BannerVideo
-       GameTitle={game.titulo}
-       GameDescription={game.description}
-       GameURL={game.url}
-       GameThumbnail={game.thumbnail}
-            
-      />
-     );
-   }
-
-        
- })} */
+         }, []);  
 
 
   
-  return (
-    <PageDefault paddingAll={0}>
-      {/*dadosInternos.length === 0 && (<div>Loading...</div>)*/}
 
-      
-     
+  
       <BannerVideo
        GameTitle={dadosIniciais.titulo}
        GameDescription={dadosIniciais.description}
        GameURL={dadosIniciais.url}
        GameThumbnail={dadosIniciais.thumbnail}
             
-      />
+       />
 
+          {dadosInterior.map((game) => {
+            if(game.id === id){
+            return (
+
+              <BannerVideo
+              GameTitle={game.titulo}
+              GameDescription={game.description}
+              GameURL={game.url}
+              GameThumbnail={game.thumbnail}
+                    
+              />
+            );
+          }
+
+                
+        })} */
+
+
+  
+  return (
+    <PageDefault paddingAll={0}>
+      {/*dadosInterior.length === 0 && (<div>Loading...</div>)*/}
+
+      
+
+    <BannerVideo
+       GameTitle={dadosInterior.titulo}
+       GameDescription={dadosInterior.description}
+       GameURL={dadosInterior.url}
+       GameThumbnail={dadosInterior.thumbnail}
+            
+       />
     
      
           

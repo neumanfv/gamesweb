@@ -13,14 +13,32 @@ import './Menu.css';
 import Button from '../Button';
 // import ButtonLink from './components/ButtonLink'; 
 
+import config from '../../config';
+
 function Menu() {
   
   function store(){
     var inputEmail= document.getElementById("search");
     localStorage.setItem("busca", inputEmail.value);
     console.log(localStorage.getItem("busca"));
-    
+    window.location.href = `${config.URL_SERVER}/tela/searchpage` ;
    };
+
+   function inputStore(){
+    var inputsearch = document.getElementById('search');
+    inputsearch.addEventListener('keyup', function(e){
+      var key = e.which || e.keyCode;
+      if (key == 13) { // codigo da tecla enter
+        // colocas aqui a tua função a rodar
+        //alert('carregou enter o valor digitado foi: ' +this.value);
+        localStorage.setItem("busca", inputsearch.value);
+        //console.log(localStorage.getItem("busca"));
+        window.location.href = `${config.URL_SERVER}/tela/searchpage` ;
+      
+      }
+   });
+
+   }
 
 
 
@@ -35,9 +53,9 @@ function Menu() {
       <text className="texttitulo">GINGO PLAY</text>  
       
       <div className="div">
-      <input className="input"  name="search" type="text" id="search" required="" placeholder="Search Game" />
+      <input className="input" onClick={inputStore} name="search" type="text" id="search" required="" placeholder="Search Game" />
      
-      <Button  as={Link} onClick={store} to="/tela/SearchPage"  > <img className="LogoBusca" src={Busca}/> </Button>
+      <Button  as={Link} onClick={store}  > <img className="LogoBusca" src={Busca}/> </Button>
       </div> 
       
 

@@ -52,10 +52,10 @@ function search(rows) {
   // <ExtraLink href={categoryExtraLink.url} target="_blank">  
   //  https://filmesweb.vercel.app , http://localhost:3000
   //    <input type="text" value={q} onChange={(e) => setQ(e.target.value)} />
+  //   <InputSearch placeholder="Search Game" type="text" value={q} onChange={(e) => setQ(e.target.value)} />
   return (
     <VideoCardGroupContainer>
-       <InputSearch placeholder="Search Game" type="text" value={q} onChange={(e) => setQ(e.target.value)} />
-      
+            
     
       <Box>
         {search(dadosModificados).map((game, index) => {        
@@ -68,7 +68,7 @@ function search(rows) {
               <VideoCard
                 gameTitle={game.titulo}
                 gameURL={game.url}
-                categoryColor="#FF0000"
+                categoryColor="#000000"
                 gameId = {game.id}
                 gameThumbnail={game.thumbnail}
                 

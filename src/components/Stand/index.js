@@ -83,7 +83,7 @@ function Stand({
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
+          <Title style={{ backgroundColor:  '#009FE3' }}>
             {categoryTitle}
           </Title>
          
@@ -108,7 +108,7 @@ function Stand({
                 
               />
 
-              <BoxText  href={`${config.URL_SERVER}/tela/video/${game.id}`}  target="_blank" >
+              <BoxText  href={`${config.URL_SERVER}/tela/video/${game.id}`}  target="_blank" title={game.titulo}  >
                   {game.titulo}
               </BoxText>
               

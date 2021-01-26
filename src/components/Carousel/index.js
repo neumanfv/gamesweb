@@ -20,12 +20,12 @@ function Carousel({
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
+          <Title >
            
             {categoryExtraLink && 
         
             <ExtraLink href={`${config.URL_SERVER}/tela/categoria/${categoryId}`} target="_blank">   
-              {categoryTitle}  <MiniBox> See More >> </MiniBox> 
+              {categoryTitle}  
             </ExtraLink>
             
             
@@ -59,6 +59,10 @@ function Carousel({
               <BoxText  href={`${config.URL_SERVER}/tela/video/${game.id}`}  target="_blank" >
                   {game.titulo}
               </BoxText>
+             
+              
+          
+              
             </SliderItem>
           );
         })}

@@ -7,9 +7,9 @@ export const VideoCardContainer = styled.a`
   overflow: hidden;
   cursor: pointer;
   color: white;
-  flex: 0 0 298px;
-  width: 298px;
-  height: 197px;
+  flex: 0 0 151px;
+  width: 151px;
+  height: 100px;
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;

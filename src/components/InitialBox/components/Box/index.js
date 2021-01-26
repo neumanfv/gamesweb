@@ -22,6 +22,7 @@ const Container = styled.ul`
 export const BoxItem = styled.li`
   margin-right: 16px;
   margin-bottom:16px;
+  
  
   position:relative;
  :hover{
@@ -41,9 +42,6 @@ export const BoxText = styled.a`
      
     font-size:12px;
     font-weight:bold;
-    text-decoration:none;
-    position:absolute;
-    bottom:0px; 
 
     width: 100%;
     height: 20px;
@@ -54,8 +52,11 @@ export const BoxText = styled.a`
     text-align:center;
     line-height:20px;
     overflow:hidden;
-
-   
+    
+    text-decoration:none;
+    position:absolute;
+    bottom:0px;
+     
     &:hover, &:focus{
      
       cursor:pointer;

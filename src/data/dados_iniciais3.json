@@ -887,7 +887,98 @@
 				"categoriaId": 5
 			  }
 	  ]
-    }
+	},
+	{
+		"id": 6,
+		"titulo": "Top Games",
+		"cor": "#6BD1FF",
+		"link_extra": {
+		  "text": "Formação de Front End na Alura",
+		  "url": "https://www.alura.com.br/cursos-online-front-end"
+		},
+		"games":[
+			{
+				"id": 501,
+				"titulo": "Cut the Rope: Magic",
+				"thumbnail": "https://games.assets.gamepix.com/40376/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-magic/embed?sid=1",
+				"description": "Join Om Nom%u2019s newest adventure and transform him into magical forms to help the lovable little monster recover candy stolen by an evil wizard! A magical mishap has accidentally teleported Om Nom to a mystical world filled with challenging puzzles for players of all ages. Can you use Om Nom%u2019s new skills to solve an evil wizard%u2019s tricks and traps?",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 502,
+				"titulo": "Cut the Rope 2",
+				"thumbnail": "https://games.assets.gamepix.com/40214/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-2/embed?sid=1",
+				"description": "SWEET! Om Nom's shenanigans continue in Cut the Rope 2 HTML5! With new characters, fresh gameplay elements and tricky missions, candy collecting has never been so fun! Cut the Rope 2 HTML5 brings fresh challenges and unanticipated obstacles to the candy crunching, physics-based phenomenon that has delighted millions of players around the world! If you like Cut the Rope, you'll love Cut the Rope 2!",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 503,
+				"titulo": "God of Light",
+				"thumbnail": "https://games.assets.gamepix.com/G7625/thumbnail/small.png",
+				"url": "https://play.gamepix.com/god-of-light/embed?sid=1",
+				"description": "Sit back and become immersed into the world of God of Light, the game that rethinks the physics puzzle genre with its unique environment exploration gameplay, amazing graphics and exclusive soundtrack created by electronic music icon UNKLE.Join cute game mascot, Shiny, on his way to saving the universe from the impending darkness. Play through a variety of exciting game worlds and dozens of levels with mind-blowing puzzles. Your goal is to explore game levels, seek for game objects that reflect, split, combine, paint, bend and teleport rays of light energy to activate the Sources of Life and bring light back to the universe.Play the entire Celestial Tree chapter for free and unlock dozens of additional levels in Stone, Azure, Frozen and Space Trees for free using collected Fireflies or with in-app purchase.This game more than delivers when it comes to great gameplay experience, so what are you waiting for? Get ready for an amazing trip. Become God of Light!Product Features%u2022 Explore 6 different game worlds and 150 levels.%u2022 Use mirrors, prisms, splitters, collectors, black holes and filters to control rays of light energy.%u2022 Unlock and share your achievements with friends. Do you have what it takes to earn them all?%u2022 Collect glowing creatures that help you solve puzzles.%u2022 Receive regular updates with new game worlds and levels to explore.",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 504,
+				"titulo": "Cut The Rope",
+				"thumbnail": "https://games.assets.gamepix.com/40071/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope/embed?sid=1",
+				"description": "Cut the rope to feed candy to Om Nom! A mysterious package has arrived, and the little monster inside has only one request: CANDY! Collect gold stars, discover hidden prizes and unlock exciting new levels in this addictively fun, award-winning, physics-based game!",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 505,
+				"titulo": "Calming Lia",
+				"thumbnail": "https://games.assets.gamepix.com/40355/thumbnail/small.png",
+				"url": "https://play.gamepix.com/calming-lia/embed?sid=1",
+				"description": "Save a little girl from her nightmares! Calming Lia is a relaxing match-three game. Like a lullaby, it is best played at night before sleeping. Help Lia and her plush friend, Bao the bear, rescue her dreams from the horrors of the evil Boogie Man!",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 506,
+				"titulo": "Cut the Rope Experiments",
+				"thumbnail": "https://games.assets.gamepix.com/40337/thumbnail/small.png",
+				"url": "https://play.gamepix.com/cut-the-rope-experiments/embed?sid=1",
+				"description": "The little green monster Om Nom is back and hungrier than ever! Team up with the Professor, a mad (but not bad!) scientist determined to study Om Nom%u2019s candy-loving behavior through a series of experiments, 200 levels and more to come!",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 507,
+				"titulo": "Tom & Jerry Mouse Maze",
+				"thumbnail": "https://games.assets.gamepix.com/40363/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tom-jerry-mouse-maze/embed?sid=1",
+				"description": "Cheese is everywhere and Jerry is on a mission to get it all! But Jerry must be careful as Tom is on the prowl. Help Jerry race through fun-packed levels collecting cheese while avoiding Tom in this classic game of cat and mouse.",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 508,
+				"titulo": "Doodle Creatures",
+				"thumbnail": "https://games.assets.gamepix.com/40271/thumbnail/small.png",
+				"url": "https://play.gamepix.com/doodle-creatures/embed?sid=1",
+				"description": "What happens if you combine an elephant with a flamingo? In Doodle Creatures you can find out as you create hundreds of fantastic and unique Creatures by combining different animals. Take the speed of a cheetah and combine with flying ability of an eagle. Awesomeness awaits!",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 509,
+				"titulo": "TenTrix",
+				"thumbnail": "https://games.assets.gamepix.com/40264/thumbnail/small.png",
+				"url": "https://play.gamepix.com/tentrix/embed?sid=1",
+				"description": "TenTrix is easy to play and a pleasurable game for all ages! Simply drag the blocks and fill up all colored grids. Once you start, you will definitely be hooked: this 3D-style game awaits you!",
+				"categoriaId": 6
+			  },
+			  {
+				"id": 510,
+				"titulo": "Gemcrafter",
+				"thumbnail": "https://games.assets.gamepix.com/40343/thumbnail/small.png",
+				"url": "https://play.gamepix.com/gemcrafter/embed?sid=1",
+				"description": "Join Jim Kraftwerk on his journey and get ready for some three-of-a-kind matching, precious stones crafting and treasure hunting action. Do you have what it takes to become a true Gemcrafter?",
+				"categoriaId": 6
+			  }
+		]
+	  }
 	
   ]
  

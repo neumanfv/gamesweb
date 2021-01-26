@@ -28,7 +28,7 @@ function MenuSearch() {
         <img className="Logo" src={Logo} alt="AluraFlix logo" />
       </Link>
 
-      <text className="texttitulo">Jogos Online Gratuitos</text>  
+      <text className="texttitulo">Free Online Games</text>  
       
      
       

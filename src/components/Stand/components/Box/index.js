@@ -26,8 +26,8 @@ export const BoxItem = styled.li`
   
   img {
     margin: 15px;
-    width: 298px;
-    height: 197px; 
+    width: 151px;
+    height: 100px; 
     object-fit: cover;
    
   }
@@ -38,12 +38,23 @@ export const BoxItem = styled.li`
 
 export const BoxText = styled.a`
      
-    font-size:20px;
+    font-size:12px;
     font-weight:bold;
     text-decoration:none;
     position:absolute;
-    bottom:10px; 
-    left:30px; 
+    bottom:0px; 
+    
+
+    width: 100%;
+    height: 20px;
+    background-color:#000;
+    color:#fff;
+    opacity:.7;
+    border-radius:0 0 10px 10px;
+    text-align:center;
+    line-height:20px;
+    overflow:hidden;
+
     &:hover, &:focus{
      
       cursor:pointer;

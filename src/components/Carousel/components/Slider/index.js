@@ -4,7 +4,9 @@ import SlickSlider from 'react-slick';
 import styled from 'styled-components';
 
 const Container = styled.ul`
-  padding: 0;
+
+
+padding: 0;
   margin: 0;
   .slick-prev,
   .slick-next {
@@ -16,7 +18,7 @@ const Container = styled.ul`
     height: 50px;
     transform: initial;
     &:before {
-      font-size: 54px;
+      font-size: 34px;
     }
   }
   
@@ -32,11 +34,12 @@ export const SliderItem = styled.li`
   margin-right: 16px;
   margin-bottom:16px;
   position:relative;
+  align-items:center;
 
   img {
     margin: 16px;
-    width: 298px;
-    height: 197px;
+    width: 161px;
+    height: 107px;
     object-fit: cover;
   }
   :hover{
@@ -47,12 +50,24 @@ export const SliderItem = styled.li`
 
 export const BoxText = styled.a`
      
-    font-size:20px;
+    font-size:12px;
     font-weight:bold;
+   
+  
+    width: 90%;
+    height: 20px;
+    background-color:#000;
+    color:#fff;
+    opacity:.7;
+    border-radius:0 0 10px 10px;
+    text-align:center;
+    line-height:20px;
+    overflow:hidden;
+
     text-decoration:none;
     position:absolute;
-    bottom:10px; 
-    left:30px; 
+    bottom:0px; 
+    
     &:hover, &:focus{
      
       cursor:pointer;
@@ -91,6 +106,9 @@ const Slider = ({ children }) => (
       dots: false,
       infinite: true,
       speed: 300,
+
+     
+
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,

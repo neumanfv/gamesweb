@@ -16,9 +16,11 @@ export const ContentAreaContainer = styled.section`
 `;
 
 ContentAreaContainer.Item = styled.div`
+
   width: 50%;
   display: inline-block;
   margin-bottom: 50px;
+  padding-top:10px;
   @media (max-width: 800px) {
     width: 100%;
     margin-bottom: 5px;
@@ -47,6 +49,8 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  overflow:hidden;
+  height:95px;
   @media (max-width: 800px) {
     display: none;
   }
@@ -57,8 +61,8 @@ ContentAreaContainer.Title = styled.h2`
   font-weight: 300;
   font-size: 40px;
   line-height: 1;
-  margin-top: 0;
-  margin-bottom: 32px;
+
+
 
   @media (max-width: 800px) {
     font-size: 32px;

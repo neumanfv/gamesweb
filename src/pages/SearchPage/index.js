@@ -1,5 +1,6 @@
 import React from 'react';
 import PageDefaultSearch from '../../components/PageDefaultSearch';
+import PageDefault from '../../components/PageDefault';
 import SearchBox from '../../components/SearchBox';
 import BannerAdd from '../../components/BannerAdd';
 
@@ -7,12 +8,12 @@ function SearchPage() {
   
   
   return (
-    <PageDefaultSearch paddingAll={0}>
+    <PageDefault paddingAll={0}>
       
       <SearchBox/>
 
       <BannerAdd/>
-    </PageDefaultSearch>
+    </PageDefault>
   );
 
 }
