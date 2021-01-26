@@ -61,3 +61,8 @@ export const InputSearch = styled.input`
   height:30px;
   width:250px;
 `;
+
+export const NoFound = styled.div`
+    
+    color:#1C1C1C;
+`;
