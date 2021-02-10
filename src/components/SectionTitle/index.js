@@ -5,7 +5,7 @@ import {Imagem, Link, Section, Title} from './styles';
 function SectionTitle (){
     return(
         <Section>
-        <Title> New Games</Title>
+        <Title> Hot Games</Title>
         </Section>
     );
 

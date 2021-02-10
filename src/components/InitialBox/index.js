@@ -5,7 +5,7 @@ import Box, { BoxItem, BoxText} from './components/Box';
 //import videosRepository from '../../repositories/videos';
 import config from '../../config';
 
-import dadosInternos from '../../data/dados_iniciais.json';
+import dadosInternos from '../../data/dados_iniciais3.json';
 
 
 function InitialBox() {
@@ -16,7 +16,7 @@ function InitialBox() {
    useEffect(() => {
     
     
-    setDadosModificados(dadosInternos.games);
+    setDadosModificados(dadosInternos.categorias[5].games);
     
 
   }, []);
@@ -30,7 +30,7 @@ function InitialBox() {
     
       <Box>
         {dadosModificados.map((game, index) => {        
-          if (index >= 28) {
+          if (index >= 35) {
             return null;
           }  
 

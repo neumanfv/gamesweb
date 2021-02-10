@@ -16,7 +16,7 @@ function Stand({
   const categoryId = category.id;
 
   const [total, setTotal] = useState(games.length);    
-  const [limit, setLimit] = useState(5);
+  const [limit, setLimit] = useState(20);
   const [pages, setPages] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [gamesShown, setGamesShown] = useState([]);
@@ -46,7 +46,7 @@ function Stand({
    
    function loadgames (){
         
-    const totalPages = Math.ceil(total/ limit);  // total, search(dadosModificados).length
+    //const totalPages = Math.ceil(total/ limit);  // total, search(dadosModificados).length
     loadPages();
 
      
@@ -63,7 +63,7 @@ function Stand({
      resultado[grupo].push(games[indice]); //  videos, search(dadosModificados)
     
  
-     if ((indice + 1) % totalPages === 0) {  
+     if ((indice + 1) % limit === 0) {   //limit, totalpages
        grupo = grupo + 1;
       
      }

@@ -136,12 +136,12 @@ function Home() {
       <BannerAdd/>
       
        <Container>
-              { categoria3.map((game, index)=>{
+              { categoria1.map((game, index)=>{
 
                           
               if(game.id!=null){
-                gamesCategoria3.push(game);
-                console.log(gamesCategoria3[0].url);
+                gamesCategoria1.push(game);
+                //console.log(gamesCategoria1[0].url);
               }
                 
               
@@ -151,13 +151,13 @@ function Home() {
                 return(
                   
               
-                    <Divs key={gamesCategoria3.id}
+                    <Divs key={gamesCategoria1.id}
                   
                     titulo="Arcade"
                     cor="black"
                     
-                    games={gamesCategoria3} 
-                    category="3"
+                    games={gamesCategoria1} 
+                    category="1"
                     
                     
                     /> 
@@ -171,12 +171,12 @@ function Home() {
 
               })}
 
-                { categoria5.map((game, index)=>{
+                { categoria2.map((game, index)=>{
 
                                   
                 if(game.id!=null){
-                  gamesCategoria5.push(game);
-                  console.log(gamesCategoria5[0].url);
+                  gamesCategoria2.push(game);
+                  //console.log(gamesCategoria5[0].url);
                 }
                   
 
@@ -186,13 +186,13 @@ function Home() {
                   return(
                     
                   
-                      <Divs key={gamesCategoria5.id}
+                      <Divs key={gamesCategoria2.id}
                     
                       titulo="Board"
                       cor="black"
                       
-                      games={gamesCategoria5} 
-                      category="5"
+                      games={gamesCategoria2} 
+                      category="2"
                       
                       /> 
                       
@@ -205,12 +205,12 @@ function Home() {
 
                 })}
 
-                  { categoria2.map((game, index)=>{
+                  { categoria3.map((game, index)=>{
 
                                             
                   if(game.id!=null){
-                    gamesCategoria2.push(game);
-                    console.log(gamesCategoria2[0].url);
+                    gamesCategoria3.push(game);
+                    //console.log(gamesCategoria2[0].url);
                   }
                     
 
@@ -220,13 +220,13 @@ function Home() {
                     return(
                       
                     
-                        <Divs key={gamesCategoria2.id}
+                        <Divs key={gamesCategoria3.id}
                       
                         titulo="Girls"
                         cor="black"
                         
-                        games={gamesCategoria2} 
-                        category="2"
+                        games={gamesCategoria3} 
+                        category="3"
                         
                         /> 
                         
@@ -240,12 +240,12 @@ function Home() {
                   })}
 
 
-                  { categoria1.map((game, index)=>{
+                  { categoria4.map((game, index)=>{
 
                                             
                   if(game.id!=null){
-                    gamesCategoria1.push(game);
-                    console.log(gamesCategoria1[0].url);
+                    gamesCategoria4.push(game);
+                    //console.log(gamesCategoria1[0].url);
                   }
                     
 
@@ -255,13 +255,13 @@ function Home() {
                     return(
                       
 
-                        <Divs key={gamesCategoria1.id}
+                        <Divs key={gamesCategoria4.id}
                       
                         titulo="Puzzles"
                         cor="black"
                         
-                        games={gamesCategoria1} 
-                        category="1"
+                        games={gamesCategoria4} 
+                        category="4"
                         
                         /> 
                         
@@ -274,12 +274,12 @@ function Home() {
 
                   })}
 
-                    { categoria4.map((game, index)=>{
+                    { categoria5.map((game, index)=>{
 
                                       
                     if(game.id!=null){
-                      gamesCategoria4.push(game);
-                      console.log(gamesCategoria4[0].url);
+                      gamesCategoria5.push(game);
+                      //console.log(gamesCategoria4[0].url);
                     }
                       
 
@@ -289,13 +289,13 @@ function Home() {
                       return(
                         
                       
-                          <Divs key={gamesCategoria4.id}
+                          <Divs key={gamesCategoria5.id}
                         
                           titulo="Sports"
                           cor="black"
                           
-                          games={gamesCategoria4} 
-                          category="4"
+                          games={gamesCategoria5} 
+                          category="5"
                           
                           /> 
                           
@@ -313,7 +313,7 @@ function Home() {
                                                 
                       if(game.id!=null){
                         gamesCategoria6.push(game);
-                        console.log(gamesCategoria6[0].url);
+                        //console.log(gamesCategoria6[0].url);
                       }
                         
 
@@ -325,7 +325,7 @@ function Home() {
                         
                             <Divs key={gamesCategoria6.id}
                           
-                            titulo="Top Games"
+                            titulo="Hot Games"
                             cor="black"
                             
                             games={gamesCategoria6} 

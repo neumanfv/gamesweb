@@ -66,32 +66,32 @@ function Menu() {
      
     <Link className = "Link" to="/tela/categoria/1">
         
-        <img className="LogoMenu" src={Puzzle} alt="Puzzles" />
-        <text className="text">Puzzles</text>
+        <img className="LogoMenu" src={Arcade} alt="Arcade" />
+        <text className="text">Arcade</text>
     </Link>
       
     <Link className = "Link" to="/tela/categoria/2">
+        
+        <img className="LogoMenu" src={Board} alt="Board" />
+        <text className="text">Board</text>
+    </Link>
+
+    <Link className = "Link" to="/tela/categoria/3">
         
         <img className="LogoMenu" src={Meninas} alt="Girls" />
         <text className="text">Girls</text>
     </Link>
 
-    <Link className = "Link" to="/tela/categoria/3">
+    <Link className = "Link" to="/tela/categoria/4">
         
-        <img className="LogoMenu" src={Arcade} alt="Arcade" />
-        <text className="text">Arcade</text>
+        <img className="LogoMenu" src={Puzzle} alt="Puzzles" />
+        <text className="text">Puzzles</text>
     </Link>
 
-    <Link className = "Link" to="/tela/categoria/4">
+    <Link className = "Link" to="/tela/categoria/5"  >
         
         <img className="LogoMenu" src={Soccer} alt="Sports" />
         <text className="text">Sports</text>
-    </Link>
-
-    <Link className = "Link" to="/tela/categoria/5">
-        
-        <img className="LogoMenu" src={Board} alt="Board" />
-        <text className="text">Board</text>
     </Link>
 
     </nav>

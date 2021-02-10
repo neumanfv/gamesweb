@@ -38,7 +38,7 @@ function SearchBox() {
    
 function search(rows) {
   //localStorage.removeItem("busca");
-  return rows.filter((row) =>  row.titulo.toLowerCase().indexOf(q)>-1 );
+  return rows.filter((row) =>  row.titulo.toString().toLowerCase().indexOf(q)>-1 );
   //Refresh();
   
 }
@@ -64,7 +64,7 @@ function search(rows) {
         
     
         {search(dadosModificados).map((game, index) => {        
-          if (index >= 25) {
+          if (index >= 50) {
             return null;
           } 
           

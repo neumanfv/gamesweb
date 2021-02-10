@@ -5,6 +5,8 @@ import facebook from '../../assets/img/facebook.png';
 import instagram from '../../assets/img/instagram.png';
 import youtube from '../../assets/img/youtube.png';
 import twitch from '../../assets/img/twitch.png';
+import gingo from '../../assets/img/gingoplay.png';
+import toplives from '../../assets/img/topgameslives.png';
 
 function Footer() {
   return (
@@ -12,17 +14,19 @@ function Footer() {
       
       <ParentBox>
             <InternalBox>
-                  <SocialLink href="https://www.facebook.com/" target="_blank">
-                    <SocialImage src={facebook} alt="Facebook" />
+                  
+                 <SocialLink href="https://www.youtube.com/channel/UCbkVwb5cnPrlybJ9AxHfqRA" target="_blank">
+                    <SocialImage src={youtube} alt="Facebook" />
+                  </SocialLink>
+                  <SocialLink href="https://topgameslives.com/" target="_blank" >
+                    <SocialImage src={toplives} alt="Facebook" />
                   </SocialLink>
                   <SocialLink href="https://www.instagram.com/" target="_blank">
                     <SocialImage src={instagram} alt="Facebook" />
                   </SocialLink>
-                  <SocialLink href="https://www.youtube.com/" target="_blank">
-                    <SocialImage src={youtube} alt="Facebook" />
-                  </SocialLink>
+                 
                   <SocialLink href="https://www.twitch.tv/"  target="_blank">
-                  < SocialImage src={twitch} alt="Facebook" />
+                      < SocialImage src={twitch} alt="Facebook" />
                   </SocialLink>
             </InternalBox>
             <InternalBox>
@@ -37,7 +41,7 @@ function Footer() {
             </InternalBox>
       </ParentBox>
       <p>
-      Copyright © 2020 - Gingo Play – Free Games Online!
+      Copyright © 2021 - Gingo Play – Free Games Online!
       </p>
     </FooterBase>
   );

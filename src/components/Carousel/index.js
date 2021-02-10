@@ -21,18 +21,18 @@ function Carousel({
       {categoryTitle && (
         <>
           <Title >
-           
-            {categoryExtraLink && 
+          {categoryExtraLink && 
         
-            <ExtraLink href={`${config.URL_SERVER}/tela/categoria/${categoryId}`} target="_blank">   
-              {categoryTitle}  
-            </ExtraLink>
-            
-            
+        <ExtraLink href={`${config.URL_SERVER}/tela/categoria/${categoryId}`} target="_blank">   
+          {categoryTitle}  
+        </ExtraLink>
         
-          
-           
-          }
+        
+    
+      
+       
+      }
+            
           </Title>
           
         </>
@@ -42,7 +42,7 @@ function Carousel({
           if (ignoreFirstGame && index === 0 ) {
             return null;
           }
-          if (index > 8 ) {
+          if (index < 20 ) {
             return null;
           }
 
