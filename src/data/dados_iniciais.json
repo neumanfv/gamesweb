@@ -1449,38 +1449,8 @@
 						"description": "Add little flappy wings to a basketball and you'll have a super addictive one-tap flying game! Can you achieve a high score here or will you smash your mobile in frustration? Simply tap to fly and try to jump into as many hoops as you can with your ball to score points. Don't touch the sides to get a bonus and make sure to avoid contact with the floor or not miss any hoops - otherwise the game is over!",
 						"categoriaId": 1
 					  },
-					  {
-						"id": 175,
-						"titulo": "SUPER STEVE WORLD",
-						"thumbnail": "https://img.gamedistribution.com/584937a706ee451dbebe51a147621533-512x512.jpeg",
-						"url": "https://html5.gamedistribution.com/584937a706ee451dbebe51a147621533/",
-						"description": "In this epic platform game, Steve will face many monsters and obstacles along the way, collect power ups and destroy monsters more easily! Collect coins and find hidden lives and stars in secret places to earn extra lives. Super Steve World is an incredible game for the whole family, if you like classic games in the retro style you will love this one!",
-						"categoriaId": 1
-					  },
-					  {
-						"id": 176,
-						"titulo": "SEASONLAND",
-						"thumbnail": "https://img.gamedistribution.com/d9bea251d9c54645b0aac0a6532114b3-512x512.jpeg",
-						"url": "https://html5.gamedistribution.com/d9bea251d9c54645b0aac0a6532114b3/",
-						"description": "SeasonLand is a classic 2D pixel art platformer game. Please help the Bunny Bot to complete his journey finding the way out, but be careful a lot of evil monsters and a deadly trap that will be waiting for your journey.",
-						"categoriaId": 1
-					  },
-					  {
-						"id": 177,
-						"titulo": "SUPER OSCAR",
-						"thumbnail": "https://img.gamedistribution.com/bb63a891738a46b4a07ba38c3b1c0a69-512x512.jpeg",
-						"url": "https://html5.gamedistribution.com/bb63a891738a46b4a07ba38c3b1c0a69/",
-						"description": "Super Oscar is the greatest platform adventure for your web browsers! Everything has been carefully designed for you to have a lot of fun! We warn you, it´s not an easy game so good luck! The game includes: - 6 beautiful worlds(more coming soon) - 35 awesome levels(more coming soon) - 50+ different enemies - 4 different characters - 6 different costumes - 8 different bullets - Upgradable characters - And a lot more features! Super Oscar has now found some costumes to make his adventures a lot better. He also felt a little bit lonely so he has brought 3 new friends! To complete all levels you will have to face countless obstacles and enemies, get ready for one of the best platformer games you have ever played! We want to take the chance to thank all our 15+ Million Super Oscar players for all their love and support, this kind of updates wouldn't be possible without you!",
-						"categoriaId": 1
-					  },
-					  {
-						"id": 178,
-						"titulo": "SUPER ONION BOY",
-						"thumbnail": "https://img.gamedistribution.com/797883fa24eb4b0182981d94e26214aa-512x512.jpeg",
-						"url": "https://html5.gamedistribution.com/797883fa24eb4b0182981d94e26214aa/",
-						"description": "Super Onion Boy is a fun platform game, your mission is to save the princess from the terrible monster that imprisoned her in a magic bubble, defeat all the monsters along the way and dodge obstacles until you reach the final boss and save the princess!",
-						"categoriaId": 1
-					  },
+
+
 					  {
 						"id": 179,
 						"titulo": "Slot: Arabian Nights",
@@ -4177,14 +4147,7 @@
 						"id": 515,
 						"categoriaId": 4
 					  },
-					  {
-						"titulo": "Bubble Shooter World Cup",
-						"url": "https://games.softgames.com/games/bubble-shooter-world-cup/gamesites/7938/",
-						"description": "Get your fingertips ready for the upcoming world cup! Bubble Shooter World Cup hooks you for hours combining the well known addictive bubble shooter gameplay with a real World Cup feeling! Match proper countryballs like the polandball or germanyball with two of the same kind to cause a chain reaction! The more footballs you manage to score with one shot, the more points you gain! If you fail to score a combo, you will get a foul and the more fouls you get, the more footballs will drop down until you loose! Enjoy an awesome football bubble shooter crossover and shoot yourself to the next level!",
-						"thumbnail": "https://d1bjj4kazoovdg.cloudfront.net/assets/games/bubble-shooter-world-cup/big_icon.jpg?p=pub-15426-15624",
-						"id": 516,
-						"categoriaId": 4
-					  },
+					  
 					  {
 						"titulo": "Dog Puzzle Story",
 						"url": "https://games.softgames.com/games/dog-puzzle-story/gamesites/7938/",
@@ -6053,7 +6016,7 @@
 						"titulo": "Bubble Shooter World Cup",
 						"url": "https://games.softgames.com/games/bubble-shooter-world-cup/gamesites/7938/",
 						"description": "Get your fingertips ready for the upcoming world cup! Bubble Shooter World Cup hooks you for hours combining the well known addictive bubble shooter gameplay with a real World Cup feeling! Match proper countryballs like the polandball or germanyball with two of the same kind to cause a chain reaction! The more footballs you manage to score with one shot, the more points you gain! If you fail to score a combo, you will get a foul and the more fouls you get, the more footballs will drop down until you loose! Enjoy an awesome football bubble shooter crossover and shoot yourself to the next level!",
-						"thumbnail": "https://d1bjj4kazoovdg.cloudfront.net/assets/games/bubble-shooter-world-cup/big_icon.jpg?p=pub-15426-15624",
+						"thumbnail": "https://d1bjj4kazoovdg.cloudfront.net/assets/games/bubble-shooter-world-cup/small_icon.jpg?p=pub-15426-15624",
 						"id": 750,
 						"categoriaId": 5
 					  },
@@ -6571,20 +6534,102 @@
 					  },
 					  {
 						"id": 815,
-						"titulo": "FLAPPY EROS",
-						"thumbnail": "https://img.gamedistribution.com/e8859bc2d08d43a0a661dd606875ee63.jpg",
-						"url": "http://html5.gamedistribution.com/e8859bc2d08d43a0a661dd606875ee63/",
-						"description": "Flap the little wings of the Eros and try to save St Valentines Day Collect hearts and different equipments to protect yourself during the journey",
+						"titulo": "Flappy Eros",
+						"thumbnail": "https://games.assets.gamepix.com/40118/thumbnail/small.png",
+						"url": "https://play.gamepix.com/flappy-eros/embed?sid=1",
+						"description": "Flap Eros' little wings and try to save St. Valentines Day! Collect hearts and different equipments to protect yourself during the journey!",
 						"categoriaId": 6
 					  },
 					  {
 						"id": 816,
-						"titulo": "BUBBLE SHOOTER",
-						"thumbnail": "https://img.gamedistribution.com/21cd459a9ad94c25864cada0bc85d840-512x384.jpeg",
-						"url": "https://html5.gamedistribution.com/21cd459a9ad94c25864cada0bc85d840/",
-						"description": "Play the most fun, relaxing and addictive bubble shooter game for FREE, match 3 colors and clear levels. you need to aim & shoot, to drop & burst all bubbles.",
+						"titulo": "Kawaii Chibi Creator",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/KawaiiChibiCreator_Teaser.jpg",
+						"url": "https://play.famobi.com/kawaii-chibi-creator/A-FPHT5",
+						"description": "Create your own Chibi character in this kawaii avatar game! There's a huge variety of items and colors in several categories: go for a more realistic look for male or female Chibis or design a cute fantasy outfit - it's all about your creativity. Customize the hairstyle, clothes, body, accessories or background and impress your friends with your styling skills. Hit the randomizer to get some inspiration and have hours of fun with this adorable dress up game!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 817,
+						"titulo": "Cute Kitty Care",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/CuteKittyCareTeaser.jpg",
+						"url": "https://play.famobi.com/cute-kitty-care/A-FPHT5",
+						"description": "Take care of a little kitten in this cute animal game! Tend to its wounds, give it some medicine and clean its dirty fur. Thanks to your good care, it's looking much better already! Afterwards, feed it so the little pet can recover its strength fully. As soon as the fluffy cat is completely healthy, you can get creative and sytle it with amazing costumes!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 818,
+						"titulo": "Baby Lily Care",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/BabyLilyCare_Teaser.jpg",
+						"url": "https://play.famobi.com/baby-lily-care/A-FPHT5",
+						"description": "Take care of Baby Lily in this cute girl game! Bathe her, change her diapers, put her to bed for her nap and prepare some healthy food for the adorable toddler. Lily loves her toys! Play with her and teach her some notes on the piano. She's so talented! Finally, you can select a beautiful costume and dress her up for a party with her friends. They will be impressed!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 819,
+						"titulo": "Baby Lily Sick Day",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/BabyLilySickDayTeaser.jpg",
+						"url": "https://play.famobi.com/baby-lily-sick-day/A-FPHT5",
+						"description": "Baby Lily is sick and you have to take care of her! The cute toddler is feeling ill and shows several symptoms. Find out what's wrong with her to give her the proper medicine and help her recover. Take her temperature, use the inhaler device and gently massage ointment into the skin. Thanks to your loving care she'll soon be healthy and happy again, so you can dress her up for a fun play date with her friends!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 820,
+						"titulo": "My Fairytale Deer",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/MyFairytaleDeerTeaser.jpg",
+						"url": "https://play.famobi.com/my-fairytale-deer/A-FPHT5",
+						"description": "Take care of a magical deer in this fairytale makeover game! Clean its sleeping place and make its dirty fur and antlers shiny again. Customize the antlers and equip the majestic animal with some powerful armor and matching accessories. Solve the puzzle to unlock a cute mushroom house for the forest guardian which looks after all forest creatues. Finally, you can choose among various categories and dress up the pretty guardian with your favorite clothes and items!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 821,
+						"titulo": "My Fairytale Water Horse",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/MyFairytaleWaterHorseTeaser.jpg",
+						"url": "https://play.famobi.com/my-fairytale-water-horse/A-FPHT5",
+						"description": "Take care of a little water horse in this fairytale makeover game! Tidy up its sleeping place at the beach and clean its dirty skin. Afterwards, equip the cute creature with some magical armor and matching accessories. Solve the puzzle to unlock a luxurious sea carriage for the water princess and create a fancy new outfit for her!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 822,
+						"titulo": "Happy Panda",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/HappyPandaTeaser.jpg",
+						"url": "https://play.famobi.com/happy-panda/A-FPHT5",
+						"description": "In this cute animal makeover game you have to help a little baby panda. The cheeky bear has made a mess eating lots of chocolate. Clean its fur and feed it with its favorite snack to make it happy again. Afterwards, you can customize your little buddy and create your favorite fantasy panda. Color its fur and select a beautiful outfit for a party with its friends!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 823,
+						"titulo": "Happy Koala",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/HappyKoala_Teaser.jpg",
+						"url": "https://play.famobi.com/happy-koala/A-FPHT5",
+						"description": "In this cute animal makeover game you have to take care of a fluffy koala. Clean its fur and feed it with its favorite snack to make it happy again. Afterwards, you can customize your little buddy and create your favorite fantasy koala. Color its fur and choose between various options for its face. Select a beautiful dress for a party with its friends and decorate the forest. Look how happy the baby mammal is!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 824,
+						"titulo": "Sailor Girls Avatar Maker",
+						"thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/SailorGirlsAvatarMaker_Teaser.jpg",
+						"url": "https://play.famobi.com/sailor-girls-avatar-maker/A-FPHT5",
+						"description": "Create your favorite Sailor girl in this magical avatar maker! Customize your Chibi character with cool clothes and design an amazing new look! Choose from various categories like hairstyles, cute dresses, scout uniforms, magic wands, jewelry or shoes and color everything the way you want!",
+						"categoriaId": 6
+					  },
+					  {
+						"id": 825,
+						"titulo": "Cut the Rope 2",
+						"thumbnail": "https://games.assets.gamepix.com/40214/thumbnail/small.png",
+						"url": "https://play.gamepix.com/cut-the-rope-2/embed?sid=1",
+						"description": "SWEET! Om Nom's shenanigans continue in Cut the Rope 2 HTML5! With new characters, fresh gameplay elements and tricky missions, candy collecting has never been so fun! Cut the Rope 2 HTML5 brings fresh challenges and unanticipated obstacles to the candy crunching, physics-based phenomenon that has delighted millions of players around the world! If you like Cut the Rope, you'll love Cut the Rope 2!",
+						"categoriaId": 6
+					  },
+					  
+					  {
+						"id": 826,
+						"titulo": "Cut The Rope",
+						"thumbnail": "https://games.assets.gamepix.com/40071/thumbnail/small.png",
+						"url": "https://play.gamepix.com/cut-the-rope/embed?sid=1",
+						"description": "Cut the rope to feed candy to Om Nom! A mysterious package has arrived, and the little monster inside has only one request: CANDY! Collect gold stars, discover hidden prizes and unlock exciting new levels in this addictively fun, award-winning, physics-based game!",
 						"categoriaId": 6
 					  }
+					  
 
   ]
 }
