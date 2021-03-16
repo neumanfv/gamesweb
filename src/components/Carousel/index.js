@@ -42,7 +42,7 @@ function Carousel({
           if (ignoreFirstGame && index === 0 ) {
             return null;
           }
-          if (index < 20 ) {
+          if (index < 38 ) {
             return null;
           }
 

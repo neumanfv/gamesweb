@@ -6637,7 +6637,46 @@
 					"url": "https://play.gamepix.com/cut-the-rope/embed?sid=1",
 					"description": "Cut the rope to feed candy to Om Nom! A mysterious package has arrived, and the little monster inside has only one request: CANDY! Collect gold stars, discover hidden prizes and unlock exciting new levels in this addictively fun, award-winning, physics-based game!",
 					"categoriaId": 6
-				  }
+				  },
+				  {
+	
+					"id": 827,
+					"titulo": "Minecraft Classic",
+					"thumbnail": "https://neumanlab.com/wp-content/uploads/2021/03/minecraft.png",
+					"url": "https://classic.minecraft.net/",
+					"description": "Minecraft Classic is an online version of the famous open-world sandbox building game. It is a remake of the original Minecraft and was released for its 10th anniversary by the developer Mojang. In the game, players can build in creative mode using 32 available blocks. The game has a multiplayer feature so you can play with up to 8 friends.",
+					"categoriaId": 6
+					},
+					
+					{
+					
+					"id": 828,
+					"titulo": "Infinite Mario Bros",
+					"thumbnail": "https://neumanlab.com/wp-content/uploads/2021/03/mario.jpg",
+					"url": "https://openhtml5games.github.io/games-mirror/dist/mariohtml5/main.html",
+					"description": "Explore new locations in the Mushroom Kingdom to rescue Princess Peach! Infinite Mario features randomly generated levels. You will never know exactly what will come up! Jump on platforms, hit question marks, and take out the Koopa Troopas and Goombas on the way!",
+					"categoriaId": 6
+					},
+					
+					{
+					
+					"id": 829,
+					"titulo": "Among Us Single Player (Fangame)",
+					"thumbnail": "https://neumanlab.com/wp-content/uploads/2021/03/among-us.jpg",
+					"url": "https://amongusplay.online/",
+					"description": "Among Us Single Player is a fan-made game based on Among Us. Play solo as an impostor against AI opponents and stop the ship’s crew from completing their mission!",
+					"categoriaId": 6
+					},
+					
+					{
+					
+					"id": 830,
+					"titulo": "Paper Minecraft",
+					"thumbnail": "https://neumanlab.com/wp-content/uploads/2021/03/paper-minecraft.jpg",
+					"url": "https://scratch.mit.edu/projects/10128407/embed",
+					"description": "Paper Minecraft is a 2D version of the legendary building game Minecraft. Before starting a game you can choose a variety of different character skins and game modes. Survival mode takes skill and ingenuity - you must gather resources and food to stay alive and build a settlement for yourself to live in. Like in most minecraft games, you will also encounter animals and different terrains such as woods, water, rock, and fields. Mine stone and wood to make tools and use these tools to mine more advanced materials to build structures with. Aside from the survival mode, you can also play the creative mode - this game mode allows you to use your imagination to build practically whatever you can think of. Use a variety of different materials to build cities, castles, and whole worlds for example. If you want, you can also load pre-built maps that other players have created! Step into the 2D world of Paper Minecraft today and start building!",
+					"categoriaId": 6
+					}
 				 
 	  ]
     }
